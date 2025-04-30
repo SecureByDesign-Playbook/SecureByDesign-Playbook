@@ -2,9 +2,9 @@
 
 This is a guide, with supporting material, to help you **assess security risks** for your small to medium size IT project.  It is intended for both technical and **non-technical staff**, at least during the early iterations, to help you **understand the interplay of risk costs and benefits**.
 
-Semi-rigid checklist of controls or mitigations (such as [NCSC's Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/)) can be useful, but this approach is intended for more unusual systems and circumstances where such checklists can cause more harm than good.  
+Semi-rigid checklist of controls or mitigations (such as [NCSC's Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/)) can be useful, but in unusual systems and circumstances such checklists can cause more harm than good.  The approach given here will show you how to rigorously approach security, with the right artefacts to engage with your security experts and auditors. 
 
-This playbook will help you comply with the UK government's [Secure By Design](https://www.security.gov.uk/policy-and-guidance/secure-by-design/), and is based on [NIST's Cyber Security Framework](https://www.nist.gov/cyberframework) and [Risk Management Framework](https://csrc.nist.gov/projects/risk-management/about-rmf).
+In particular this playbook will help you comply with the UK government's [Secure By Design](https://www.security.gov.uk/policy-and-guidance/secure-by-design/), and is based on [NIST's Cyber Security Framework](https://www.nist.gov/cyberframework) and [Risk Management Framework](https://csrc.nist.gov/projects/risk-management/about-rmf).
 
 We have provided [some examples here](./examples/).
 
