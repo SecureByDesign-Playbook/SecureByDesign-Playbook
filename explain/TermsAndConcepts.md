@@ -12,17 +12,27 @@ A quick canter through the terms used here and for the Risk Assessment, introduc
 
    [![Watch an Introduction](https://i.ytimg.com/vi/afbq4GgeKDM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAi5g7rc558pzNFJmv-VEQkhPtfkg)](https://www.youtube.com/playlist?list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb)
 
+### What are we protecting?
+
 Essentially we **identify** the **assets** that we want to protect, what the **impacts** or **effects** are of those assets being **compromised** (nicked, bricked or tricked - stolen, denied, destroyed, corrupted - confidentiality, integrity or access has failed) and so which ones we want to focus on.
 
+### Where is everything we care about?
+
 We map out the **space** (diagram the networks, visualise the cyber space) and where our **assets** are **located** in that **space** (data at rest), and what **channels** are used to **access** them and **move** them (data on the move).  We distinguish between **areas of responsibility** (areas that we control) and **areas of interest** (areas that we do not control, but still affect us, and we need to monitor).
+
+### Who are the bad guys?
 
 With the assets located in space, we now assess the **threats**  that can apply to these assets in these spaces. For this playbook we focus on **threat actors**; people and groups that deliberately or accidentally compromise our assets.  That is, we are not concerned here with natural threats such as earthquakes as these can and should be managed in different ways.
 
 Threat actors have a range of **capabilities** and **motivations**, both in general and specifically applied to our space and assets. 
 
+### Assembling the 'Picture'
+
 We combine these into the **security picture** which is a combination of the space, the assets laid our in that space, and the threats that apply to those assets and space.  We can include any of the **security controls** (protection measures) that are already in place.
 
 From this we can deduce what **vulnerabilities** still exist and so what other **security controls** could be applied. 
+
+### Controlling the situation
 
 This gives us two outputs:  a registry of **residual technical security risks**, and the **action plan**  to add any more security controls.
 
