@@ -14,14 +14,3 @@ This also means that by the time you get to focus on the detail, you can put the
 
 Each pass of the playbook should give you better understanding of the situation and what you can do about it. It should help you spiral towards good, rigorous, appropriate security rather than just cycling around a dead process. 
 
-## Resources 
-
-### Who do you need?
-In principle you don't need to be technical to run the first iteration - and it may even be more useful not to be. It will be necessary however to have someone on hand who understands the 'space' that you are protecting: where your assets are located, which routes they are moved down or accessed through, where the boundaries are and what the connections are between the space you are protecting and the areas around it.
-
-You should also have someone knowledgeable who can check your assessments, both to help assure *you* that you are doing the right thing (or correct you if you are not in some places) and also to assure your *customers* that what you are delivering is *suitably* secure.
-
-### What do you need?
-
-### What's here to use
-

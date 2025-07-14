@@ -1,5 +1,8 @@
-# Secure By Design Playbook Examples
+# Playbook Examples
 
-[**The Command Post**](commandpost):  For field-deployed headquarters or other management teams
+[**Command Posts**](commandpost):  For field-deployed headquarters or other management teams with locally-good networking and poor wide-area connections.
 
-The Developer Team: 
+(TBD) **The Developer Team:** A 'standard' worked example for a distributed developer team
+
+(TBD) **Home Office**: A 'standard' worked example for a home/small office network
+

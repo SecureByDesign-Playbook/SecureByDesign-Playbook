@@ -14,18 +14,23 @@ By themselves these are still quite broad and in our first attempts at Secure By
 
 There are ready-made checklists that you can use as an action plan for security controls for common situations such as developer team networks. 
 
-These can be misleading for unusual situations, and they do not help us to understand the costs and benefits of risks and mitigating them, but they are a good starter.
+These can be misleading for unusual situations, and they do not help us to understand the costs and benefits of risks and mitigating them.
+
+However they are a good start, and can be used immediately before you work through longer processes. See, for example, the [UK Government's Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview) for a list of things to do to secure your organisation.
 
 
 ## What it is and is not
-We have a process, and a set of ready-partly-filled spreadsheets/tables/templates to help people write their own risk assessment.
+We have a process, and a set of ready-partly-filled spreadsheets/tables/templates to help people write their own risk assessment. It combines the NIST framework, common western military threat assessments, and some concepts that have emerged from experience in securing IT and physical systems.
 
-The process has now been developed a bit further using a common western military threat assessment, to give us a reasonably systematic approach; that is a way of breaking the problem down, re-assembling it, and being reasonably rigorous. Or at least as rigorous as we need to be.
+It does not have any ready answers, and will not write your security checklists or risk assessments for you.  If you have a 'standard' project or organisation, you should consider finding ready-made templates (such as Cyber Essentials above), and come back to this if you need more rigour or have aspects that do not fit the template well.
 
-The playbook is in written form with some explanation videos and a few worked examples.
-
-[watching out for crap rigour and GIGO\]
+The playbook is largely text, with some explanation videos and a few worked examples.
 
 ## How to contribute
 
-[] 
+Please do contribute suggestions for better evaluations, better explanations, and better materials. If you apply this to a particular project and you are able to tell us about it,  please do.
+
+If you build your own templates and consultancy from this, again let us know. This is intended to help security professionals and project managers get better, and commercialising specialisations of this playbook is a great way to make it useable. 
+
+
+

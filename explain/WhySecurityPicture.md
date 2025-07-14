@@ -38,7 +38,7 @@ The Secure By Design page provide a list of questions to answer that are overlai
 
 The NIST CSF is also essentially a list of lists, organised as high level functions with various categories and subcategories:
 
-![NIST-CSF-Topics.png](D:\code-workspace\SbD-Playbook@us\SecureByDesign-Playbooks\about\NIST-CSF-Topics.png.jpg)
+![NIST-CSF-Topics.png](..\about\NIST-CSF-Topics.png.jpg)
 
 
 
@@ -182,7 +182,7 @@ stateDiagram
 
 Our approach combines the above in the context of information system security. It includes an assessment of what we are protecting and why. It should give you some ways to understand how we integrate the various lists. And finally we have tried to make the terminology reasonably clear for business users, so that our technical risks can be translated into business ones reasonably easily. 
 
-See the Playbook
+See the [Playbook](..\Playbook.md)
 
 
 

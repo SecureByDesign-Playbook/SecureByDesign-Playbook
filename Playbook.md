@@ -19,21 +19,25 @@ Here is that approach in a diagram:
 
 ```mermaid
 stateDiagram
+   Assets&Uses --> SecurityPicture
+   Networks&Stores --> SecurityPicture
    Threats --> SecurityPicture
-   Networks --> SecurityPicture
-   Assets --> SecurityPicture
 
    SecurityPicture --> AttackOptions
    AttackOptions --> VulnerabilityScan
+   VulnerabilityScan --> CurrentRisks
    DefendOptions --> ActionPlan
-   VulnerabilityScan --> ResidualRisks
-   ResidualRisks --> ActionPlan
    RiskAppetite --> ActionPlan
+   CurrentRisks --> ActionPlan
    ActionPlan --> ImplementControls
    ImplementControls --> SecurityPicture
 
 
 ```
+
+## Prepare
+
+What do you need to know, who do you need to ahve access to
 
 ## Assessing the Risk: Understand the Situation
 
@@ -158,7 +162,6 @@ Adminsitrative Controls:
    Monitor
 
 ## Communicating
-
 
 
 

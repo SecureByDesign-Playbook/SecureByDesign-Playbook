@@ -1,25 +1,35 @@
 ## Outline
 
-Essentially we **identify** the **assets** that we want to protect, where they are, what the existing security is, what the threats are, and calculate from these the natural **risks**.
+Essentially we **identify** the **assets** that we want to protect and:
 
-We then use this risk registry to prioritise the **security controls** for those assets that are particularly vulnerable to the relevant threats, and that have high impacts if compromised. 
+* what impact would there be if they were stolen (nicked), disabled or destroyed (bricked), or corrupted (tricked)
+* where they are, how they move
+* what the existing security is
 
-Once these are implemented and tested, we can reSecureByDesign-Playbookcalculate the risks until we are satisfied that the risks are acceptable.  
+We then look at what the **threats** are and how they might reach and affect the assets
+
+This gives us the existing vulnerabilities and we can use these and the impact scales to calculate and register the **risks** 
+
+We use this risk registry to prioritise the **security controls** for those assets that are particularly vulnerable to the relevant threats, and that have high impacts if compromised. 
+
+Once these are implemented and tested, we can recalculate the risks until we are satisfied that the risks are acceptable.  
 
 
 ```mermaid
 stateDiagram
-   Threat --> SecurityPicture
-   Ground --> SecurityPicture
-   Uses --> SecurityPicture
+   Assets&Uses --> SecurityPicture
+   Networks&Stores --> SecurityPicture
+   Threats --> SecurityPicture
 
    SecurityPicture --> AttackOptions
-   AttackOptions --> DefendOptions
-   DefendOptions --> VulnerabilityScan
-   VulnerabilityScan --> ResidualRisks
-   ResidualRisks --> ActionPlan
+   AttackOptions --> VulnerabilityScan
+   VulnerabilityScan --> CurrentRisks
+   DefendOptions --> ActionPlan
    RiskAppetite --> ActionPlan
-   ActionPlan --> DefendOptions
+   CurrentRisks --> ActionPlan
+   ActionPlan --> ImplementControls
+   ImplementControls --> SecurityPicture
+
 
 
 ```
