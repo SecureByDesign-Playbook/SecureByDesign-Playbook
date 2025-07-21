@@ -1,6 +1,6 @@
-# Intro
+# Assets, Uses, Effects & Impacts
 
-Scope
+
 
 - For this study, information assets are the main focus. 
 
@@ -50,5 +50,4 @@ Cyber spies most commonly attempt to access the following assets:
 - Political strategies, affiliations and communications
 
 - Military intelligence
-
 
