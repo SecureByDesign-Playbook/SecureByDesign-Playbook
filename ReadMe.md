@@ -54,7 +54,7 @@ Help us improve: what terms here do you find alien, what would you use? What ana
 
 [UK Government Assurance Guidelines ("GovAssure")](https://www.security.gov.uk/policy-and-guidance/govassure/)
 
-NIST CSF
+[NIST CSF](https://www.nist.gov/cyberframework)
 
-Cyber Essentials
+[Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview)
 

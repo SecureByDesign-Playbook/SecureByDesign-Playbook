@@ -1,21 +1,42 @@
 ## Profiling Threats
 
-If we want to look in more detail [extract out]
+This provides some guidance to examining threats in more detail
 
-We can borrow from other assessments, for example the UK Military use
-the mnemonic COWARD (capabilities, organisation, weapons & equipment,
-activities, reserves and doctrine) that can provide a checklist to
-consider. \[From the MIRET IPB, also lists of weaons/attack types,
-consider tactical, theatre, strategic levels, also recruitment, finance,
-training, resources, influence, effectiveness, serviceability,
-readiness, rehearsals, precedent and our favourite servants what, when
-where who how and why)
+### Identifying Threat Actors
+
+[TBC] Actuals vs Categories
+
+
+
+### Threat Capabilities
+
+We borrow from other threat assessments, for example the UK Military use
+the mnemonic COWARD:
+
+* Capabilities,
+* Organisation
+* Weapons & equipment (software tools, skills)
+* Activities (how do they attack)
+* Reserves (how can they reinforce attack)
+* Doctrine (what are the playbooks they use)
+
+
+
+Tactical, theatre, strategic levels
+
+also recruitment, finance, training, resources, influence, effectiveness, serviceability,
+readiness, rehearsals, precedent 
+
+and our favourite servants what, when where who how and why)
 
 For many this will be a defensive assessment, only considering Threat
 Actors ability to harm. For some this should include offense; in what
-ways can they be harmed or at least diverted, decoyed, trapped,
-disabled, etc. For this see our version of 'Centre of Gravity' analysis
-to identify good targets.
+ways can Threat Actors be harmed or at least diverted, decoyed, trapped,
+disabled, etc. 
+
+### Threat Motivations
+
+
 
 To break that down and extend it, consider:
 

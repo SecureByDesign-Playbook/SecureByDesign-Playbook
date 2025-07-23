@@ -1,12 +1,12 @@
-# The Playbook
+# <img style="float: right; width: 25%" src="about/CoolBlue.png"/>The Playbook
 
 ## Overall Approach
 
 * Assess the situation, by first identifying:
-  * The assets that we will protect, how they are used, and what would be the impact if they are affected
-  * The 'space', or the networks, that the assets are stored in and the routes they move around on
-  * The threats that are interested in attacking our assets
-* Put these together to see where these threats might access which assets through what parts of the network. 
+  * The **assets** that we will protect, how they are used, and what would be the impact if they are affected
+  * The 'space', or the **networks**, that the assets are stored in and the routes they move around on
+  * The **threats** that are interested in attacking our assets
+* Put these together to see where these threats might access which assets through what parts of the network - our **security picture**. 
 * Work out what areas need better defences, and in what ways so we don't accidentally shoot ourselves in the foot.
 * Compare the  costs and benefits of the options, and select suitable ones to add. 
 
@@ -17,12 +17,12 @@ Here is that approach in a diagram:
 ```mermaid
 stateDiagram
    Assets&Uses --> SecurityPicture
-   Networks&Stores --> SecurityPicture
+   Networks&Access --> SecurityPicture
    Threats --> SecurityPicture
 
-   SecurityPicture --> AttackOptions
-   AttackOptions --> VulnerabilityScan
-   VulnerabilityScan --> CurrentRisks
+   SecurityPicture --> CoursesOfAction
+   CoursesOfAction --> AssessingTheRisks
+   AssessingTheRisks --> CurrentRisks
    DefendOptions --> ActionPlan
    RiskAppetite --> ActionPlan
    CurrentRisks --> ActionPlan
@@ -36,7 +36,7 @@ We will go through each of these in more detail below, but essentially that's th
 
 ## Prepare
 
-You will need:
+<img style="float: right; width: 10%" src="PreparingPerson.png"/>You will need:
 
 * To be clear about **what you are assessing**. In the software world, we are typically developing a system to be used by someone else. We need therefore to assess the risks the *deployed* system has, but also the risks to the *development team*. These are two different assessments.
 * A place to **register what assets you have where**. We have a starter spreadsheet for you to record onto, but your workplace may already have asset registers so it's worth seeing what already exists.
@@ -50,7 +50,8 @@ We look at the assets first because these shape everything else in the assessmen
 
 ### Assets & Uses
 
-Identify your assets and what they are used for. Estimate their security value: 
+<img style="float: right; width: 25%" src="./assess/Assets - Money.png"/>Identify your assets and what they are used for. Estimate their security value: 
+
 
  * What would the impact be if they were affected by being nicked (stolen or copied), bricked (denied, destroyed, broken, lost), or tricked (corrupted in some misleading way).
  * Prioritise the more valuable ones - the ones that would have greater impact if they were affected. Skip ones that are less relevant, and in the first round even those that you don't understand properly. Be quick, coarse, and rough with your estimates rather than exact and late.  
@@ -63,22 +64,11 @@ By doing this we not only remind ourselves what is actually important to us, but
 
 Where possible we should use the same units - eg money - to compare them, but if we include people then we might also include time, physical harm, emotional pain, etc.
 
-See [Assets Assessments](assess/Assets.md) for more detail, a starter Asset Register, and this [explanation video](https://www.youtube.com/watch?v=afbq4GgeKDM&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=1&t=26s)
+See [Assets Assessments](assess/Assets.md) for more detail, a starter [Asset Register][assets/AssetsRegister.ods], and this [explanation video](https://www.youtube.com/watch?v=afbq4GgeKDM&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=1&t=26s)
 
 ##### Home Example
 
-For example in our home networks we will have sensitive personal information about our families on home laptops or phones, some valuable gaming devices, and probably access to our financial assets at a bank. For each of these consider what the impact would be if you didn't have it any more, or if someone got a copy of it, or somebody fiddled with it.  
-
-
-
-| Asset                 | Uses                                                         | Nicked                                                       | Bricked                                | Tricked                                                      |
-| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------- | ------------------------------------------------------------ |
-| Work Laptops          | Arthur uses for work in the living room, Betty in the spare bedroom | Our competitors gain advantage. I lose a few days work to get it replaced | I lose a few days work get it replaced | Phishing attack means I send some                            |
-| Financial information | Arthur and Betty use phone apps to manage accounts           | Lost money                                                   | Cannot make payments for a few days    | Make payments to the wrong people; lost money                |
-| School Reports        | School and parent use to communicate Jonny's lack of progress | Jonny's reputation reduced                                   | We can't track Jonny's progress        | Jonny's hacked the school sharepoint again. Four points to huffleslyth |
-| PlayXBoy 5000Kz       | Arthur plays games                                           | Arthur can't play games                                      | No one can play games                  | Arthur thinks he's good at games                             |
-
-See more on our [home worked example](../examples/homenet)
+For example in our home networks we will have sensitive personal information about our families on home laptops or phones, some valuable gaming devices, and probably access to our financial assets at a bank. For each of these consider what the impact would be if you didn't have it any more, or if someone got a copy of it, or somebody fiddled with it. [Read more](./examples/home/)
 
 ### Networks, Space and Access
 
@@ -96,26 +86,27 @@ See [Network Assessments](assess/Networks.md)  for more detail and this [explana
 
 ##### Home Example
 
-[diagram]
-
-
-
-See also our [Home worked example](./assets/homenet)
+We draw out each device in our house, and then draw a line between it and the router that it connects to, depending on whether it is wifi (orange) or cable (blue). [Read more](./examples/home/)
 
 ### Threats
 
-For this playbook we focus on threat *actors*: people and groups that deliberately or accidentally compromise our assets.  Some risk assessment frameworks (such as NIST 800 3..) include natural threats such as earthquakes, but these can and should be managed in different ways. Leave them out of this assessment. 
+For this playbook we focus on threat *actors*: people and groups that deliberately or accidentally compromise our assets. 
 
-Threat actors have a range of capabilities and motivations, both generally and when applied to our specific space and assets. To start with use a coarse score for each of these rather than listing technical skills, tools or individual goals.
+> Some risk assessment frameworks (such as NIST 800 3..) include natural threats such as earthquakes, but these can and should be managed in different ways; leave them out of this assessment. 
+
+<img style="float: right; width: 25%" src="./assess/Threat - Burglar.png"/>Threat actors have a range of capabilities and motivations, both generally and when applied to our specific space and assets. To start with, use a coarse score for each of these rather than listing technical skills, tools and goals:
 
 | Threat Actor   | Capability | General Motivation | Specific Motivation |
 | -------------- | ---------- | ------------------ | ------------------- |
 | Script Kiddies | Low        | High               | Low                 |
 | Competitors    | Medium     | Medium             | High                |
 | ...            |            |                    |                     |
-|                |            |                    |                     |
 
-See [Threat Assessments](assess/Threats.md) for more details, a starter Threat Actor list, and an [explanation video](https://www.youtube.com/watch?v=9Zwl-BxyUQg&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=3&t=63s).
+See [Threat Assessments](assess/Threats.md) for more details, a starter [Threat Actor Registry](assets/ThreatsRegister.ods) , and an [explanation video](https://www.youtube.com/watch?v=9Zwl-BxyUQg&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=3&t=63s).
+
+##### Home Example
+
+[Read more](./examples/home/)
 
 ### Security Picture
 
@@ -123,14 +114,20 @@ We now look at how *these* threats would navigate *this* network to have an effe
 
 These are the **courses of action** that a threat actor can take to cause us harm.  
 
-We can  pick out: 
+We can pick out: 
 
- * which parts of the **network** are particularly important to protect our **most** **valuable** **assets**. We can call these our **vital spaces**, and we can prioritise them by the impact of nicking, bricking or tricking the assets stored or moving through those spaces. 
- * Routes between these vital spaces and our threat actors. These are the **attack vectors**. 
+ * which parts of the **network** are particularly important to protect our **most** **valuable** **assets**. We can call these our **vital spaces**, and we can prioritise them by the **impact** of nicking, bricking or tricking the assets either stored in or moving through them. 
+ * **Routes** between these **vital spaces** and our **threat actors**. These are the **attack vectors**. 
 
-[example]
+However, this gives us a large combination of possibilities: 
 
-However, this gives us a large combination: threats x routes x impacts. 
+> Number of Threats x Number of Routes x Range of Impacts 
+
+...and we will need to prioritise. 
+
+##### Home Example
+
+[Read more](./examples/home/)
 
 ### Assessing the Risks
 
@@ -140,15 +137,17 @@ These are our high priority **vulnerabilities**; the easiest courses of action f
 
 We can also eliminate particular combinations and possibly even threat actors. For example if you are building a standalone system that will not be connected to anything else, you can eliminate script kiddies *for the built system*; they may still be a threat to your development team.
 
-[example]
-
 We are left with all the other vulnerabilities, ie which courses of action do not have sufficiently good protection to deal with them. This is likely to be large. Look also for bottlenecks in the routes available to the threat actors and see what defences can be put in place. Otherwise, for the first passes, concentrate on the high priority vulnerabilities.
 
-##### Trade Offs
+##### Home Example
+
+[Read more](./examples/home/)
+
+#### Trade Offs
 
 It can be tempting to just slam defences in everywhere you can see a vulnerability. 
 
-But defences have costs; you need to weight those costs against the impacts of assets being affected.  If the cost of defending an asset is greater than the impact of that asset being affected then the defence is self-defeating. 
+But defences have costs; you need to weight those costs against the impacts of assets being affected.  If the cost of defending an asset is greater than the impact of that asset being affected then the defence is self-defeating.  You will need to talk to your technical people to understand what defences will be appropriate for each vulnerability, what single defences might cover many vulnerabilities, and how much they will cost.
 
 This might be operational rather than money; if you shut down your own people's ability to work, you essentially "self-brick" your own operations. 
 
@@ -156,45 +155,59 @@ You might even find examples of existing defences in place that cost more than t
 
 This is not clear cut. You might know the costs of defences reasonably well,  but these need to be weighed against the *likelihood* of threat actors successfully affecting  your assets combined with the *likely* impacts of those effects on those assets.  That uncertainty can make this tricky. In the first passes, you can use the indexes in the sheets we provided to calculate the trade-offs, but be wary of 'crap rigour'; use the indexes to guide you, do not treat them as rigorous. 
 
-##### Complications
+These trade-offs will give a list of '**residual risks**'; these are the risks still left over once we have considered the existing defences and which assets are not worth spending significant defences on.  
 
-Complex attacks. Cyber can be slow and piecemeal. 
+Convert these residual technical security risks into business security risks (usually in the form of business costs) and add them to the general project or company risk register. The risk owners look over all of these to decide if these are acceptable or not according to the business **risk appetite**, and to make a call on whether to continue operating even if some risks still require treating or transferring.  
 
+##### Home Example
 
+[Read more](./examples/home/)
 
-(Why do we do things this way? See [our explanation](explain\WhySecurityPicture.md) )
+#### Complex Attacks
 
-##### Business Risks
+For the first assessments you can focus on direct, simple attacks where the Threat Actor attempts to 'break in' and affect an asset using one technique.
 
-These impact scores, and associated insufficient security measures, give us the registry of residual technical security risks. 
+In practice Threat Actors are likely to work more slowly and more piecemeal; they might attack the office network to steal some information about your developer network, then *use that* to persuade developers to reveal some information about the software used, then *use that* to insert some malware into an open-source software library being used. 
 
+This complicates the Assets impacts and residual risks, because Threat Actors might attack low-impact assets to get information to reach high-impact assets.
 
+While you can largely ignore this on the first pass, you should have a placeholder in your risk assessment to work out **attack chains** as **courses of action** that are **complex attacks** 
 
-[example]
-
-
-
-The residual technical security risks are converted into business security risks and added to all the other project risks. The risk owners look over all of these to decide if these are acceptable or not according to the business risk appetite, and to make a call on whether to operate even if some risks still require treating or transferring.  
+(Why do we suggest assessing the risks like this? See [our explanation](explain\WhySecurityPicture.md) )
 
 ### Security Action Plan
 
-With our prioritised list of assets and places to protect, we can consider options for defending them. These are, coarsely, 'protect', 'detect' and 'respond' that correspond to the NIST CSF's sections with these names. 
+With our prioritised list of **vulnerabilities** we can consider options for defending them. 
 
-We can then use the asset layout to show us *where* the protections should be applied. 
+Defences coarsely, consist of 'protect', 'detect' and 'respond' that correspond to the NIST CSF's sections:
 
-Physical Controls:
+* **Protect**: Prevent threat actors from accessing
+* **Detect:** Monitor systems to tell when threat actors have penetrated into the system
+* **Respond:** Eject threat actors, restore bricked or tricked systems, mitigate against nicked data. 
 
-Technical Controls:
-Protect
-  Monitor
+We can then use the asset layout over the network to show us *where* these protections should be applied. 
 
-  ---> Vulnerabilities --> Residual Risks
+The protection measures are called '**controls**'. These might be physical, technical or adminstration
 
-Adminsitrative Controls:
-  Train
-   Monitor
+* **Physical Controls:** eg fences, walls, locked doors, swipe-card access
+* **Technical Controls:** eg password-protected access, phone authenticators, fingerprint or retinal scanners.
+* **Administration Controls:** eg Security Clearances, references, training, behaviours
+
+##### Home Example
+
+[Read more](./examples/home/)
 
 #### Communicating your plan
+
+<img style="float: right; width: 25%" src="./Presentation.png"/>Your action plan needs to go to your business team who will be approving the financial spend. You have now both the costs and the risks, so all the information is here that they need.
+
+It will then need to go to your technical team to implement the right controls. You should have the **attack vectors**  from your Security Picture, so the technical team will understand where to place the right controls to defeat the expected attacks. Ideally the team who will do this are the same people you have asked about the costs of the defences, so they are already aware and informed. 
+
+##### Home Example
+
+[Read more](./examples/home/)
+
+#### 
 
 
 
