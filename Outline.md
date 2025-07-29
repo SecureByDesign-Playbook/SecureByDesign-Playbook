@@ -1,3 +1,10 @@
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true
+	});
+</script>
+
 ## Outline
 
 Essentially we **identify** the **assets** that we want to protect and:
@@ -15,7 +22,7 @@ We use this risk registry to prioritise the **security controls** for those asse
 Once these are implemented and tested, we can recalculate the risks until we are satisfied that the risks are acceptable.  
 
 
-```mermaid
+<pre class="mermaid">
 stateDiagram
    Assets&Uses --> SecurityPicture
    Networks&Stores --> SecurityPicture
@@ -29,11 +36,7 @@ stateDiagram
    CurrentRisks --> ActionPlan
    ActionPlan --> ImplementControls
    ImplementControls --> SecurityPicture
-
-
-
-```
-
+</pre>
 
 
 ## Using the Playbook
