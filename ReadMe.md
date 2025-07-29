@@ -7,7 +7,8 @@ This is different from using checklists of controls or mitigations (such as [NCS
 In particular this playbook will help you comply with the UK government's [Secure By Design](https://www.security.gov.uk/policy-and-guidance/secure-by-design/). It implements [NIST's Cyber Security Frameork](https://www.nist.gov/cyberframework) and [Risk Management Framework](https://csrc.nist.gov/projects/risk-management/about-rmf) which are widely recognised and will be familiar to your cyber security advisors and auditors. The ready-made templates use these, but you can replace these with your own or others. These are combined into a risk assessment including likely adversary courses of action and what to monitor for, using an approach similar to western military "Intelligence Preparation of the Battlefield".
 
 We have provided [some examples here](./examples/). 
-This is auto-published to the [Secure By Design Playbook pages](https://securebydesign-playbook.github.io/SecureByDesign-Playbook/Playbook.html)
+
+This is auto-published to the [Secure By Design Playbook pages](https://securebydesign-playbook.github.io/SecureByDesign-Playbook/)
 
 ## Start
 
