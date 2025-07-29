@@ -1,5 +1,13 @@
 # <img style="float: right; width: 25%" src="about/CoolBlue.png"/>The Playbook
 
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true
+		});
+</script>
+
+ 
 ## Overall Approach
 
 * Assess the situation, by first identifying:
@@ -14,6 +22,7 @@ Once these new defences are included, or planned, then re-assess the situation.
 
 Here is that approach in a diagram:
 
+<pre class="mermaid">
 ```mermaid
 stateDiagram
    Assets&Uses --> SecurityPicture
@@ -31,6 +40,7 @@ stateDiagram
 
 
 ```
+</pre>
 
 We will go through each of these in more detail below, but essentially that's the playbook to follow. We strongly recommend going through it once quickly and scrappily to learn, and then again more carefully to be more thorough, and then again until it becomes routine and mostly automatic.
 
