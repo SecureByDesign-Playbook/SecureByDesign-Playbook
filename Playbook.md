@@ -1,3 +1,4 @@
+
 <script type="module">
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 	mermaid.initialize({
@@ -20,7 +21,6 @@
 Once these new defences are included, or planned, then re-assess the situation.
 
 Here is that approach in a diagram:
-
 
 <pre class="mermaid">
 stateDiagram
