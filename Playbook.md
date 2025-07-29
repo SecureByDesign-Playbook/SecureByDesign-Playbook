@@ -22,7 +22,6 @@ Once these new defences are included, or planned, then re-assess the situation.
 
 Here is that approach in a diagram:
 
-'''mermaid
 <pre class="mermaid">
 stateDiagram
    Assets&Uses --> SecurityPicture
@@ -38,7 +37,6 @@ stateDiagram
    ActionPlan --> ImplementControls
    ImplementControls --> SecurityPicture
 </pre>
-'''
 
 We will go through each of these in more detail below, but essentially that's the playbook to follow. We strongly recommend going through it once quickly and scrappily to learn, and then again more carefully to be more thorough, and then again until it becomes routine and mostly automatic.
 
