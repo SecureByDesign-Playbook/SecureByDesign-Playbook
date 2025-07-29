@@ -1,5 +1,3 @@
-<b>In bold</b>
-
 # Secure By Design Playbooks
 
 This is a guide, with supporting material, to help you **assess security risks** for your small to medium size IT project.  It is intended for both technical and **non-technical staff**, at least during the early iterations, to help you **understand the interplay of risk costs and benefits**.
@@ -10,7 +8,7 @@ In particular this playbook will help you comply with the UK government's [Secur
 
 We have provided [some examples here](./examples/). 
 
-This is auto-published to the [Secure By Design Playbook pages](https://securebydesign-playbook.github.io/SecureByDesign-Playbook/)
+This is auto-published to the [Secure By Design Playbook pages](https://securebydesignschool.github.io/SecureByDesign-Playbook/)
 
 ## Start
 
