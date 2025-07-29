@@ -1,3 +1,5 @@
+<script></script>
+
 # Secure By Design Playbooks
 
 This is a guide, with supporting material, to help you **assess security risks** for your small to medium size IT project.  It is intended for both technical and **non-technical staff**, at least during the early iterations, to help you **understand the interplay of risk costs and benefits**.
