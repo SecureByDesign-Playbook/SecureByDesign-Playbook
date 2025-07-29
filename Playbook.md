@@ -1,5 +1,3 @@
-# <img style="float: right; width: 25%" src="about/CoolBlue.png"/>The Playbook
-
 <script type="module">
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 	mermaid.initialize({
@@ -7,6 +5,7 @@
 	});
 </script>
 
+# <img style="float: right; width: 25%" src="about/CoolBlue.png"/>The Playbook
  
 ## Overall Approach
 
