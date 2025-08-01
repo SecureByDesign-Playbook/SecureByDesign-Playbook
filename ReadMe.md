@@ -50,11 +50,5 @@ Help us improve: what terms here do you find alien, what would you use? What ana
 
 ## Related
 
-[UK Government Secure By Design Policy](https://www.security.gov.uk/policy-and-guidance/secure-by-design/policy/)
-
-[UK Government Assurance Guidelines ("GovAssure")](https://www.security.gov.uk/policy-and-guidance/govassure/)
-
-[NIST CSF](https://www.nist.gov/cyberframework)
-
-[Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview)
+See [About](./about/Readme.md) for links to related approaches and references
 

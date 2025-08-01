@@ -207,7 +207,7 @@ It will then need to go to your technical team to implement the right controls. 
 
 [Read more](./examples/home/)
 
-#### 
+#### ...and again...
 
-
+Plan out your next run through the playbook, this time focussing perhaps more on the areas that look vulnerable to attack that can cause you harm. 
 

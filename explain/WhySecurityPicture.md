@@ -1,12 +1,14 @@
 # Behind the Scenes: The Security Picture
 
-The part of the playbook where we assemble the security picture is a mashup of NIST CSF, RMF, 'traditional' security analysis and military assessments.  Why did we do it this way?
+The part of the playbook where we assemble the security picture is a mashup of NIST CSF, RMF, 'traditional' security analysis and military assessments.  
+
+Why did we do it this way?
 
 Breaking it down into manageable chunks helps us to take apart the complex problem, and then reassemble the chunks for a specific situation - the one we are wanting to secure.
 
-The cyber security frameworks we have selected don't tend to have the useful step-by-step detail that helps us to create the right chunks.  There is such a process in military ground assessments which we can borrow from; while ‘cyberspace’ might have a different form to the real world ground, there are still many similar aspects  that we can use.  
+The cyber security frameworks we have selected don't tend to have the useful step-by-step detail that helps us to create the right chunks.  There is such a process in military ground assessments (the way the military decide what to do about the situation) which we can borrow from; while ‘cyberspace’ might have a different form to the real world ground, there are still many similar aspects that we can use.  
 
-## UK Gov's Secure By Design
+## UK Government's Secure By Design
 
 The Secure By Design page provide a list of questions to answer that are overlaid on whatever framework you use, it's not a process in itself although we can derive something like this:
 
@@ -32,7 +34,7 @@ The Secure By Design page provide a list of questions to answer that are overlai
 	Manage --> ResidualRisks
 ```
 
-
+This covers some of the things we need to do, but there are some 'magical' steps where it can be difficult to understand how one set of products feeds into the next one.
 
 ## NIST Cyber Security Framework
 
@@ -91,8 +93,6 @@ While this lists a number of documents to produced, there is little to no suppor
 ## The Military Approach
 
 There are some similarities between military tactical assessments and cyber security assessments. Both look at the space we operate in (the 'ground' for the Army) and the adversary to derive what the situation is that the military force is facing. 
-
-This approach gives us a more clearly defined way of combining the various inputs described above, but it does not include the friendly force picture or what we are protecting and why:
 
 ```mermaid
 stateDiagram
@@ -174,11 +174,9 @@ stateDiagram
 
 ```
 
+This approach gives us a more clearly defined way of combining the various inputs described above, but it does not include the friendly force picture or what we are protecting and why.
 
-
-
-
-## The SbD Playbook Process
+## The Secure By Design "Playbook" 
 
 Our approach combines the above in the context of information system security. It includes an assessment of what we are protecting and why. It should give you some ways to understand how we integrate the various lists. And finally we have tried to make the terminology reasonably clear for business users, so that our technical risks can be translated into business ones reasonably easily. 
 
