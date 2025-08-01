@@ -8,7 +8,7 @@ In particular this playbook will help you comply with the UK government's [Secur
 
 We have provided [some examples here](./examples/). 
 
-This is auto-published to the [Secure By Design Playbook pages](https://securebydesignschool.github.io/SecureByDesign-Playbook/)
+This is auto-published to the [Secure By Design School pages](https://securebydesignschool.github.io/SecureByDesign-Playbook/), and is maintained on github at the [Secure By Design Playbook repository](https://github.com/SecureByDesignSchool/SecureByDesign-Playbook/) 
 
 ## Start
 
