@@ -2,7 +2,7 @@
 
 ## Why?
 
-To understand our security we must understand our enemy[^1]. More specifically we need sufficient evidence about relevant threats, in enough time, to allow for good, informed decisions.
+To understand our security we must understand our adversary[^1]. More specifically we need sufficient evidence about relevant threats, in enough time, to allow for good, informed decisions.
 
 Successful threat intelligence helps security teams to better understand previous, existing, and emerging threats; encouraging them to shift from reactive to proactive responses. 
 
@@ -10,17 +10,17 @@ Identifying and profiling potential threats effectively leads to better detectio
 
 ## Threats
 
-In this case, a threat is an intention to cause harm to your assets. A 'threat' consists of an 'actor' with 'capability', and 'motivation' to attack.  Attacks might be intentional or unintentional, physical or digital.  While we will focus on intentional, digital attacks in this playbook the others should of course be part of your overall risk assessment.
+In this case, a threat is an intention to cause harm to your assets. A 'threat' consists of an 'actor' with 'capability', and 'motivation' to attack.  Attacks might be intentional or unintentional, physical or digital.  While we will focus on intentional, digital attacks in this playbook, the others should of course be part of your overall risk assessment.
 
-## What is a Threat Actor? 
+## What is an Adversary? 
 
-A 'threat actor' attempts to maliciously attack specific targets.  An actor may be an individual, a group, or even some semi-autonomous computer systems.
+An Adversary (or 'enemy' or threat actor', or 'threat source' in some material) attempts to maliciously attack specific targets.  An adversary may be an individual, a group, or even some semi-autonomous computer systems.
 
 Some risk assessment systems also include natural disasters such as earthquakes under 'threat sources', but these are a very different category of threat that should be approached differently.  We do not include them here.
 
 Even 'unintentional' actors (for example, staff accidentally deleting data) might be better excluded from this particular assessment as they too should be prepared for, monitored for, and responded to differently.
 
-To help simplify the large range of possible combinations, we have a list of Threat Actor types to provide some templates or stereotypes that we can analyse, for example:  
+To help simplify the large range of possible combinations, we have a list of Adversary types to provide some templates or stereotypes that we can analyse, for example:  
 
 | Name | Description | Categories | Code|
 |-------------|------------------------|-----------|---------|
@@ -36,29 +36,15 @@ To help simplify the large range of possible combinations, we have a list of Thr
 | Foreign Intelligence Services |  | Organisation Outsider | TS-FIS |
 
 --------------------------------------------
-A more complete list is captured in the [Threats.xlsx](Threats.xlsx) spreadsheet, explained below.
-
 ## Scoring Threats
 
-
-
-Initial quick threat assessment might consist of identifying (1) Who (2) Capability and (3) Intent (general and specifically to you).
-
-
+Adversaries are scored by **Capability** and **Intent** (general and specifically to you).
 
 You can then score which of these actors are more relevant to your situation; which of them essentially are both more capable and more motivated to attack your assets compared to others. This can give you the more relevant and likely threats to focus on.
 
-If you want to look at Threat capabilities and motivations in more detail, 
+### Threats Register
 
-
-
-## Threat Assessment
-
-Using the Threat Assessment spreadsheet.
-
-
-
-See for example
+We provide a [starter threats registry](ThreatsRegisterGuide.md) which has some adversaries and attacks already listed. 
 
 # References
 

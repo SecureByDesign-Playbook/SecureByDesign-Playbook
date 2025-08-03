@@ -17,7 +17,7 @@ They might be:
 * **abstract** like a trustworthy reputation that you need to keep bringing in work.
 * **communications** like work emails or phones 
 
-...or anything else that would cost you or harm you if they were::
+...or anything else that would cost you or harm you if they were:
 
 - **Bricked**: deleted, hidden, disabled, denied, destroyed.  Leaving your mobile phone in your washing is likely to turn it into an expensive brick.
 
@@ -31,41 +31,9 @@ For example you might have a work mobile phone that you use to reach your custom
 
 Some of these will matter more to you than others. 
 
-#### Your Asset Register
+### A Starter List
 
-Just like a school attendance register, your asset register should list the assets that are present. 
-
-There will likely to be lots of these, so start with the major ones. We have provided a starter [Asset Register][assets/AssetsRegister.ods] to help you; this can look a bit overwhelming at first, but it's just a list a bit like this:
-
-| Asset         | Uses                         | Nicked                                                  | Bricked                                              | Tricked                                              |
-| ------------- | ---------------------------- | ------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- |
-| What Thing... | ..is used by who to do what? | If it is stolen then what can someone find out from it? | If you can't use it, what are you also unable to do? | What false information on it might lead to problems? |
-
-...with some drop-down selections to help you grade which impacts are more serious than others. These grades come from the NIST Risk Framework so are reasonably well established, but as usual don't get too buried in the detail
-
-Locations or Devices are not necessarily assets by themselves; what unless only when they enable information use. That is
-
-What is the impact if an asset is:
-
-- 
-
-
-
-How do we measure the impact:
-
-- Units: money, lives, calendar time, effort, reputation
-
-- Extent: catastrophic, damaging, trivial
-
-- Effect on goal/mission
-
-Where assets (or space) are common to other devices, can exploit
-zero-day or 'known' vulnerabilities. For example Kubernetes is
-Kubernetes with a well-known build dependency, so quietly inserting code
-into those is easier than into bespoke code written in a metal box by
-cleared people.
-
-Cyber spies most commonly attempt to access the following assets:
+Just some ideas to help you create your list; valuable assets might be:
 
 - Research & Development data and activity
 
@@ -73,8 +41,7 @@ Cyber spies most commonly attempt to access the following assets:
 
 - IP, such as product formulas or blueprints
 
-- Salaries, bonus structures and other sensitive information regarding
-  organizational finances and expenditures
+- Salaries, bonus structures and other sensitive finance
 
 - Client or customer lists and payment structures
 
@@ -82,5 +49,43 @@ Cyber spies most commonly attempt to access the following assets:
 
 - Political strategies, affiliations and communications
 
-- Military intelligence
+- Military or business intelligence
+
+### Your Asset Register
+
+Just like a school attendance register, your asset register should list the assets that are present. 
+
+There will likely to be lots of these, so start with the major ones. We have provided a starter [Asset Register][assets/AssetsRegisterGuide.md] to help you; this can look a bit overwhelming at first, but it's just a list a bit like this:
+
+| Asset         | Uses                         | Nicked                                                  | Bricked                                              | Tricked                                              |
+| ------------- | ---------------------------- | ------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- |
+| What Thing... | ..is used by who to do what? | If it is stolen then what can someone find out from it? | If you can't use it, what are you also unable to do? | What false information on it might lead to problems? |
+
+...with some drop-down selections to help you grade which impacts are more serious than others. 
+
+These grades come from the NIST Risk Framework so are reasonably well established, but as usual don't get too buried in the detail
+
+### Supply Chains
+
+Don't forget that your assets are often supplied by other people, and often made of various components that have been supplied by even more other people. These
+
+## Uses & Users
+
+Knowing who uses your assets for what will help you understand:
+
+* What the impacts are if the assets are stolen, broken, or altered
+* how assets move, for example between where they are stored and where they are used
+* What alternatives there might be (ie, using different systems to get the same solution)
+* What you need to protect from your own security protections! You might be tempted to disable access to a system, but this is a way of checking that access is not already in legitimate use. 
+
+### Impacts and Targets
+
+What are the consequences of the asset being affected? These will likely be different for different kinds of effects. If you don't have good security on your mobile then having it stolen could be much worse than running over it with a car. 
+
+For each effect (ie nick, brick and trick) work out:
+
+* What and who is impacted?
+* How severely? Terminally catastrophic, serious, severe, significant, trivial?
+
+Typically you will measure the commercial impact in time or money, but in your case you might want to use other measures such as harm, time, reputation, delays to a goal, and so on. 
 
