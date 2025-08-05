@@ -76,7 +76,7 @@ See [Assets Assessments](assess/Assets.md) for more detail, a starter [Asset Reg
 
 ##### Home Example
 
-In a home networks we will typically have sensitive personal information about our families on home laptops or phones, some valuable gaming devices, and probably access to our financial assets at a bank. For each of these consider what the impact would be if you didn't have it any more, or if someone got a copy of it, or somebody fiddled with it. [Read more](./examples/home/)
+In a home network we will typically have sensitive personal information about our families on home laptops or phones, some valuable gaming devices, and probably access to our financial assets at a bank. For each of these consider what the impact would be if you didn't have it any more, or if someone got a copy of it, or somebody fiddled with it. [Read more](./examples/home/)
 
 ### Networks, Space and Access
 
@@ -167,7 +167,7 @@ We are left with all the other vulnerabilities, ie which courses of action do no
 
 It can be tempting to just slam defences in everywhere you can see a vulnerability. 
 
-But defences have costs; you need to weight those costs against the impacts of assets being affected.  If the cost of defending an asset is greater than the impact of that asset being affected then the defence is self-defeating.  You will need to talk to your technical people to understand what defences will be appropriate for each vulnerability, what single defences might cover many vulnerabilities, and how much they will cost.
+But defences have costs; you need to weight these costs against the impacts of assets being affected.  If the cost of defending an asset is greater than the impact of that asset being affected then the defence is self-defeating.  You will need to talk to your technical people to understand what defences will be appropriate for each vulnerability, what single defences might cover many vulnerabilities, and how much they will cost.
 
 This might be operational rather than money; if you shut down your own people's ability to work, you essentially "self-brick" your own operations. 
 
