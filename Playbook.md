@@ -29,7 +29,7 @@ Here is that approach in a diagram:
 stateDiagram
    Assets&Uses --> SecurityPicture
    Networks&Access --> SecurityPicture
-   <a href="https://securebydesignschool.github.io/SecureByDesign-Playbook/quick/Threats.html">Threats</a>--> SecurityPicture
+   Threats --> SecurityPicture
    SecurityPicture --> CoursesOfAction
    CoursesOfAction --> AssessingTheRisks
    AssessingTheRisks --> CurrentRisks
