@@ -36,7 +36,7 @@ stateDiagram
    CurrentRisks --> ActionPlan
    ActionPlan --> ImplementControls
    ImplementControls --> SecurityPicture
-   click Threats "https://securebydesignschool.github.io/SecureByDesign-Playbook/quick/Threats.html" "banana"
+   click Threats "/quick/Threats.html" "banana"
 </pre>
 
 We will go through each of these in more detail below, but essentially that's the playbook to follow. 
