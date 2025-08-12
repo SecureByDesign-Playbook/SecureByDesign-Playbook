@@ -39,21 +39,10 @@ stateDiagram
 </pre>
 
 ```plantuml
-
-@startuml
-State S1
-State S2
-S1 -[#DD00AA]-> S2
-S1 -left[#yellow]-> S3
-S1 -up[#red,dashed]-> S4
-S1 -right[dotted,#blue]-> S5
-
-X1 -[dashed]-> X2
-Z1 -[dotted]-> Z2
-Y1 -[#blue,bold]-> Y2
-@enduml
-
+Alice -> Bob: Hi there!
+Bob --> Alice: Hello to you too!
 ```
+
 
 We will go through each of these in more detail below, but essentially that's the playbook to follow. 
 
