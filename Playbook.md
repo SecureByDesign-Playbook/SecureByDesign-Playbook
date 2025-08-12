@@ -28,7 +28,6 @@ stateDiagram
    Assets&Uses --> SecurityPicture
    Networks&Access --> SecurityPicture
    Threats --> SecurityPicture
-
    SecurityPicture --> CoursesOfAction
    CoursesOfAction --> AssessingTheRisks
    AssessingTheRisks --> CurrentRisks
@@ -67,7 +66,7 @@ Where are your assets located? How do they move from stores to where they get us
 
 Who are the **active adversaries** - the people and groups - that might attempt to nick, brick or trick your assets?  How good are they, and how likely are they to attack?
 
-[Quick-Start Threats Guide](quick\Threats.md) - 
+[Quick-Start Threats Guide](quick\Threats.md) - (Smart) Threat Assessment - (Deep) Threat Profiling
 
 ### Security Picture
 
@@ -75,9 +74,13 @@ Let's now look at how *these* threats would navigate *this* network to have an e
 
 This also gives us the **Courses of Action**, which are ...
 
+[Quick-Start Security Picture](quick/SecurityPicture.md) - (Smart) Situation Appreciation - (Deep) 
+
 ### Assess the Risks
 
 What are the risks right now? What is the Risk Appetite - how much impact can you put up with? What are the options for defence? how do those costs weigh against the risks?
+
+[Quick-Start Risks](quick/AssessRisks.md) - (Smart) - (Deep)
 
 (Why do we suggest assessing the risks like this? See [our explanation](explain\WhySecurityPicture.md) )
 
@@ -85,8 +88,11 @@ What are the risks right now? What is the Risk Appetite - how much impact can yo
 
 We use this risk registry to prioritise the **security controls** for those assets that are particularly vulnerable to the relevant threats, and that have high impacts if compromised. 
 
+[Quick-Start Action Plan](quick/ActionPlan.md) - (Smart) - (Deep)
+
 #### ...and again...
 
 Plan out your next run through the playbook, this time focussing perhaps more on the areas that look vulnerable to attack that can cause you harm. 
 
 Once these are implemented and tested, we can recalculate the risks until we are satisfied that the risks are acceptable.  
+
