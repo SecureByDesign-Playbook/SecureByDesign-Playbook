@@ -4,7 +4,7 @@ For this playbook we focus on active **adversaries** (sometimes called threat *a
 >
 > Some risk assessment frameworks (such as NIST 800 3..) include natural threats such as earthquakes, but these can and should be managed in different ways; leave them out of this assessment. 
 
-<img style="float: right; width: 25%" src="D:\Martins\Unusual Systems\Unusual Share - Documents\Cyber Security\SbD-Playbook@sbds\Playbook\assess\Threat - Burglar.png"/>Adversaries have a range of capabilities and motivations, both generally and when applied to our specific space and assets. 
+<img style="float: right; width: 25%" src="/quick/Threat - Burglar.png"/>Adversaries have a range of capabilities and motivations, both generally and when applied to our specific space and assets. 
 
 To start with, use a coarse score for each of these rather than listing technical skills, tools and goals:
 

@@ -38,6 +38,23 @@ stateDiagram
    ImplementControls --> SecurityPicture
 </pre>
 
+```plantuml
+
+@startuml
+State S1
+State S2
+S1 -[#DD00AA]-> S2
+S1 -left[#yellow]-> S3
+S1 -up[#red,dashed]-> S4
+S1 -right[dotted,#blue]-> S5
+
+X1 -[dashed]-> X2
+Z1 -[dotted]-> Z2
+Y1 -[#blue,bold]-> Y2
+@enduml
+
+```
+
 We will go through each of these in more detail below, but essentially that's the playbook to follow. 
 
 We have broken down the big problem of "Cyber Security Risk Assessment" into smaller component problems that you can focus on and then assemble into the security picture, but bear in mind that each component cannot be done well in *complete* isolation so be aware of the bigger picture as you work.
