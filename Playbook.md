@@ -29,7 +29,7 @@ Here is that approach in a diagram:
 stateDiagram
    Assets&Uses --> SecurityPicture
    Networks&Access --> SecurityPicture
-   Threats --> SecurityPicture
+   Threats <a href='/quick/threats.html'>link</a>--> SecurityPicture
    SecurityPicture --> CoursesOfAction
    CoursesOfAction --> AssessingTheRisks
    AssessingTheRisks --> CurrentRisks
@@ -38,7 +38,6 @@ stateDiagram
    CurrentRisks --> ActionPlan
    ActionPlan --> ImplementControls
    ImplementControls --> SecurityPicture
-   click Threats "/quick/Threats.html"
 </pre>
 
 We will go through each of these in more detail below, but essentially that's the playbook to follow. 
