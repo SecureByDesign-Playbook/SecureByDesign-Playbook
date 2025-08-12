@@ -48,7 +48,7 @@ To help this we strongly recommend going through it once - **quickly** and scrap
 
 'Scope' what you are examining: what are you responsible for, and what are you not? Start small and grow.  Be ready to record and track what you are finding out; we provide some starter material. 
 
-[Quick-Start Prepare](quick\Prepare.md) - Smart Prepare - Deep Prepare
+[Quick-Start Prepare](quick/Prepare.md) - Smart Prepare - Deep Prepare
 
 ### Assets & Uses
 
@@ -60,13 +60,13 @@ To help this we strongly recommend going through it once - **quickly** and scrap
 
 Where are your assets located? How do they move from stores to where they get used?  How and where does information interact with people? Draw out a linked diagram (a network) of what areas there are that have your valuable assets in them and the access routes, or communication links, between them. Mark onto this map the existing security precautions in place. 
 
-[Quick-Start Cyber Space](quick\Networks.md)  - Smart Network Mapping - Deep Monitoring 
+[Quick-Start Cyber Space](quick/Networks.md)  - Smart Network Mapping - Deep Monitoring 
 
 ### Threats
 
 Who are the **active adversaries** - the people and groups - that might attempt to nick, brick or trick your assets?  How good are they, and how likely are they to attack?
 
-[Quick-Start Threats Guide](quick\Threats.md) - (Smart) Threat Assessment - (Deep) Threat Profiling
+[Quick-Start Threats Guide](quick/Threats.md) - (Smart) Threat Assessment - (Deep) Threat Profiling
 
 ### Security Picture
 
