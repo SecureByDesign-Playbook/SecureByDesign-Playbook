@@ -2,7 +2,9 @@
 <script type="module">
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 	mermaid.initialize({
-		startOnLoad: true
+		startOnLoad: true,
+		htmllabels: true,
+		securitylevel: 'loose'
 	});
 </script>
 
@@ -36,7 +38,7 @@ stateDiagram
    CurrentRisks --> ActionPlan
    ActionPlan --> ImplementControls
    ImplementControls --> SecurityPicture
-   click Threats "/quick/Threats.html" "banana"
+   click Threats "/quick/Threats.html"
 </pre>
 
 We will go through each of these in more detail below, but essentially that's the playbook to follow. 
