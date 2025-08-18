@@ -1,4 +1,4 @@
-# # <img src="SecurityPicture.png" style="float:right; width:25%"/>Quick Start: Security Picture
+# <img src="SecurityPicture.png" style="float:right; width:25%"/>Quick Start: Security Picture
 
 You have listed your assets, got some idea of where they are and how they move and how you access them, and listed the main threats.
 
