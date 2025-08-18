@@ -6,7 +6,7 @@ This is available as the original [Google Sheet](https://docs.google.com/spreads
 
 On the left you should list the things that you believe are valuable. The example pre-entered in the sheet is for a simple home setup: 
 
-<img src="AssetsRegisterGuide-Identify.png" align=center width=500 />
+<img src="/smart/AssetRegisterGuide-Identify.png" align=center width=500 />
 
 You don't have to list every single device; feel free to group similar ones or those with similar uses. 
 
