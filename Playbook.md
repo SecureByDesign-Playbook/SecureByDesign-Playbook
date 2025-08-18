@@ -54,7 +54,7 @@ To help this we strongly recommend going through it once - **quickly** and scrap
 
 'Scope' what you are examining: what are you responsible for, and what are you not? Start small and grow.  Be ready to record and track what you are finding out; we provide some starter material. 
 
-[Quick-Start Prepare](quick\Prepare.md) - [Prepare Smartly](smart/Prepare.md) - [Deep Prepare](deep/Prepare.md)
+[Quick-Start Prepare](quick/Prepare.md) - [Prepare Smartly](smart/Prepare.md) - [Deep Prepare](deep/Prepare.md)
 
 ### Assets & Uses
 
@@ -66,13 +66,13 @@ To help this we strongly recommend going through it once - **quickly** and scrap
 
 Where are your assets **located**? How do they **move** from stores to where they get used?  How and where does information **interact with people****?  What existing **defences** are in place, and where?
 
-[Quick-Start Cyber Space](quick\Networks.md)  - [Smart Network Mapping](smart/Networks.md) - [Deep Monitoring](deep/Networks.md) 
+[Quick-Start Cyber Space](quick/Networks.md)  - [Smart Network Mapping](smart/Networks.md) - [Deep Monitoring](deep/Networks.md) 
 
 ### <img src="Threats.png" style="float:right; width:25%"/>Threats
 
 Who are the **active adversaries** - the people and groups - that might attempt to nick, brick or trick your assets?  How good are they, and how likely are they to attack?
 
-[Quick-Start Threats Guide](quick\Threats.md) - [Threat Assessment](smart/Threats.md) - [Threat Profiling](deep/Threats.md)
+[Quick-Start Threats Guide](quick/Threats.md) - [Threat Assessment](smart/Threats.md) - [Threat Profiling](deep/Threats.md)
 
 ### Security Picture
 
