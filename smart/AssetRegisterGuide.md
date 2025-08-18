@@ -1,6 +1,6 @@
 # Guide to the Playbook Assets Register
 
-This is available as the original [Google Sheet](https://docs.google.com/spreadsheets/d/1YTQhJwKRkcZ8dpORtiHov0FCh3IHVTsWt-inOh3JeWU) developed by Holly, and as an [Excel Sheet](AssetsRegister.xlsx) maintained here.
+This is available as the original [Google Sheet](https://docs.google.com/spreadsheets/d/1YTQhJwKRkcZ8dpORtiHov0FCh3IHVTsWt-inOh3JeWU) developed by Holly, and as an [Excel Sheet](AssetRegister.xlsx) maintained here.
 
 ### Identifying the Assets
 
@@ -22,7 +22,7 @@ Give each one an "ID" so that you can refer to it from other documents later.
 
 For each device think about what would happen if it was bricked, nicked, or tricked:
 
-<img src="AssetsRegisterGuide-Impact.png" align=center width=400 />
+<img src="/smart/AssetRegisterGuide-Impact.png" align=center width=400 />
 
 Write some quick notes about what the impact would be; if there are several impacts then you can create another line for the same asset, but again at least to start with keep this rough and broad.
 
