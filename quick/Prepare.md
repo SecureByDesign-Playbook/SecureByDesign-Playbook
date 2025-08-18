@@ -1,4 +1,4 @@
-# # <img src="Preparing.png" style="float:right; width:25%"/>Quick Start: Prepare 
+# <img src="Preparing.png" style="float:right; width:25%"/>Quick Start: Prepare 
 
 Be clear about **what you are assessing**. 
   * Is it your current situation, or a future one?
