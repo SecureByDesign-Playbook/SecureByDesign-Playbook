@@ -1,25 +1,19 @@
-# Quick Start: Assets and Uses
+# <img  src="Asset.png" style="float: right; width: 30%"/>Quick Start: Assets and Uses
+
+**What** are you protecting and **why**? This might include:
 
 
+* Valuable physical devices
+* Information 
+* Intangible things like reputation, trust, brand loyalty.
 
- * Estimate their security value: 
+Estimate their value. This is not how much they cost you, but what would be the **impact** - the cost to you - if there were to be:
 
+* Nicked (stolen, seen or copied)
+* Bricked (locked out, destroyed, broken, lost)
+* Tricked (changed to mislead you)
 
-    * What would the **impact** be if they were:
-
-      * nicked (stolen or copied)
-      * bricked (denied, destroyed, broken, lost)
-      * or tricked (corrupted in some misleading way)?
-
-   
-
- * This might include:
-
-   * Valuable physical devices
-   * Information 
-   * Intangible things like reputation, trust, brand loyalty.
-
- * Prioritise the more valuable ones - the ones that would have greater impact if they were affected. Skip ones that are less relevant, and in the first round even those that you don't understand properly. Be quick, coarse, and rough with your estimates rather than exact and late.  
+Skip ones that are less relevant, and in the first round even those that you don't understand properly. Be quick, coarse, and rough with your estimates rather than exact and late.  
 
 | Asset         | Uses                         | Nicked                                                  | Bricked                                              | Tricked                                              |
 | ------------- | ---------------------------- | ------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- |
@@ -27,10 +21,14 @@
 
 By doing this we not only remind ourselves what is actually important to us, but we can start to score these to compare them, and so prioritise which ones to focus on.
 
-Where possible we should use the same units - eg money - to compare them, but if we include people then we might also include time, physical harm, emotional pain, etc.
+Where possible we should use the same units - eg money - for all the impacts so that we can easily compare them. Sometimes we might want to use other units like 'time lost', 'physical harm', 'emotional pain', and soon.
 
-See [Assets Assessments](assess/Assets.md) for more detail, a starter [Asset Register][assets/AssetsRegisterGuide.md], and this [explanation video](https://www.youtube.com/watch?v=afbq4GgeKDM&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=1&t=26s)
+You can draw up your list on a piece of paper or your favourite editor; we provide an example starter [Asset Register][AssetRegister.xlsx]. See also this [explanation video](https://www.youtube.com/watch?v=afbq4GgeKDM&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=1&t=26s) and you can go on to [Smart Asset Assessments](../smart/Assets.md) for more detail.
 
 ##### Home Example
 
-In a home networks we will typically have sensitive personal information about our families on home laptops or phones, some valuable gaming devices, and probably access to our financial assets at a bank. For each of these consider what the impact would be if you didn't have it any more, or if someone got a copy of it, or somebody fiddled with it. [Read more](./examples/home/)
+In a home networks we will typically have sensitive personal information about our families on home laptops or phones, some valuable gaming devices, and probably access to our financial assets at a bank. 
+
+For each of these consider what the impact would be if you didn't have it any more, or if someone got a copy of it, or somebody fiddled with it. 
+
+[Read more](./examples/home/)

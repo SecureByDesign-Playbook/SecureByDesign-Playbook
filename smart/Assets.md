@@ -1,6 +1,4 @@
-# <img src="Asset Dive.png" style="float:right" width=25%/>
-
-# A Dive into Assets, Uses and Impacts
+# Assets, Uses and Impacts
 
 Let's have a look at how to identify and describe the assets that matter
 
@@ -8,7 +6,7 @@ Let's have a look at how to identify and describe the assets that matter
 
 For these assessments your assets are those things that are *valuable* to you.
 
-<img src="Assets - Money.png" align="center" width=30% />
+<img src="Assets.png" align="center" width=40% />
 
 They might be:
 
@@ -55,19 +53,13 @@ Just some ideas to help you create your list; valuable assets might be:
 
 Just like a school attendance register, your asset register should list the assets that are present. 
 
-There will likely to be lots of these, so start with the major ones. We have provided a starter [Asset Register][assets/AssetsRegisterGuide.md] to help you; this can look a bit overwhelming at first, but it's just a list a bit like this:
+There will likely to be lots of these, so start with the major ones. We have provided a starter [Asset Register][assets/AssetsRegisterGuide.md] to help you with some drop-down selections to help you grade which impacts are more serious than others. 
 
-| Asset         | Uses                         | Nicked                                                  | Bricked                                              | Tricked                                              |
-| ------------- | ---------------------------- | ------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- |
-| What Thing... | ..is used by who to do what? | If it is stolen then what can someone find out from it? | If you can't use it, what are you also unable to do? | What false information on it might lead to problems? |
-
-...with some drop-down selections to help you grade which impacts are more serious than others. 
-
-These grades come from the NIST Risk Framework so are reasonably well established, but as usual don't get too buried in the detail
+These grades come from the NIST Risk Framework so are reasonably well established, but as usual don't get too buried in the detail in your first iterations.
 
 ### Supply Chains
 
-Don't forget that your assets are often supplied by other people, and often made of various components that have been supplied by even more other people. These
+Don't forget that some of your assets might be supplied by other people, and may be made of components that have been supplied by even more other people. These can be attacked too, either directly while you're using them, or while they are being made.
 
 ## Uses & Users
 

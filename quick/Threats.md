@@ -1,20 +1,18 @@
-For this playbook we focus on active **adversaries** (sometimes called threat *actors*): people and groups that deliberately or accidentally compromise our assets. 
+# <img style="float: right; width: 25%" src="Threat.png"/>Quick-Start: Threats
 
-> [!NOTE]
->
-> Some risk assessment frameworks (such as NIST 800 3..) include natural threats such as earthquakes, but these can and should be managed in different ways; leave them out of this assessment. 
+Active **adversaries** (sometimes called threat *actors*) are people and groups that deliberately or accidentally compromise our assets.  The **threat** they pose depends on their **skills**, **tools**, and their **motivation** to attack **your spaces and assets**. 
 
-<img style="float: right; width: 25%" src="D:\Martins\Unusual Systems\Unusual Share - Documents\Cyber Security\SbD-Playbook@sbds\Playbook\assess\Threat - Burglar.png"/>Adversaries have a range of capabilities and motivations, both generally and when applied to our specific space and assets. 
+For a quick-start we will consider only a few main categories of attacker: "Criminals", "Competitors" and "Insiders", and we can use a coarse score "low", "medium" and "high" for their capability (skills, tools, experience, resources) and their motivation.  For example:
 
-To start with, use a coarse score for each of these rather than listing technical skills, tools and goals:
+| Adversary        | Capability | Motivation |
+| ---------------- | ---------- | ---------- |
+| Criminal Hackers | High       | Low        |
+| Competitors      | Medium     | Medium     |
+| Insiders         | High       | High       |
 
-| Adversary      | Capability | General Motivation | Specific Motivation |
-| -------------- | ---------- | ------------------ | ------------------- |
-| Script Kiddies | Low        | High               | Low                 |
-| Competitors    | Medium     | Medium             | High                |
-| ...            |            |                    |                     |
+If your environment is unusual have a look through the [Smart Threat Assessment](../smart/ThreatRegister.xlsx) registry and add any that are appropriate, but as usual keep it simple for the quick start. 
 
-See [Threat Assessments](assess/Threats.md) for more details, a starter [Threat Registry](assets/ThreatsRegisterGuide.md) , and an [explanation video](https://www.youtube.com/watch?v=9Zwl-BxyUQg&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=3&t=63s).
+We provide a simple [Quick-start Threat Registry](ThreatRegister.xlsx); it's just a list as above. See also [Smart Threat Assessments](../smart/Threats.md) for more details and an [explanation video](https://www.youtube.com/watch?v=9Zwl-BxyUQg&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=3&t=63s).
 
 ##### Home Example
 

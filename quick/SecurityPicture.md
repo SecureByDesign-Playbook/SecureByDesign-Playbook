@@ -1,44 +1,27 @@
-et's now look at how *these* threats would navigate *this* network to have an effect on *these* assets.  
+# # <img src="SecurityPicture.png" style="float:right; width:25%"/>Quick Start: Security Picture
 
+You have listed your assets, got some idea of where they are and how they move and how you access them, and listed the main threats.
 
+Now put them together:
 
+> How might *these* adversaries navigate *this* network to affect *these* assets.  
 
+These are the **courses of action** that an adversary might take.  
 
-
-
-These are the **courses of action** that an adversary can take to cause you harm.  
+Along those courses of action, they are likely to come across your existing **defences** so note these against these courses of action, and how likely these are to prevent or reduce the threat. 
 
 Pick out: 
 
- * Which parts of the **network** have the most **valuable assets**, ie the ones where the impact of nicking, bricking or tricking the assets in those places are highest. 
-   * These are your  **vital spaces** 
+ * Which parts of the **network** have the most **valuable assets**; the ones where the impact of nicking, bricking or tricking the assets in those places are highest. 
+   * These are your **vital spaces** 
 
  * **Routes** between these **vital spaces** and our **adversaries**. These are the **attack vectors**. 
 
-In most situations this will give you a very large combination of possibilities: 
+This will give you your **vulnerabilities**: the courses of action that the adversaries may take to use the attack vectors to reach your vital spaces, and you do not have good enough defences to stop them. 
 
-<p align=center>Number of Threats x Number of Routes x Range of Impacts </p>
-
-This will only get more as we start adding possible security plans. 
-
-To start with, pick the top threats, the main routes, and the most valuable assets and prioritise those. 
-
-As you develop the detail of your security risk assessment you will need to manage this information, probably in a database rather than a spreadsheet as these can get unwieldy. 
-
-Bear in mind that this database itself is an asset, and it can be used to discover the vulnerabilities in your systems - this is, after all, what you are using it for. It too must be included in your asset register and your risk assessment.  
+You may find that you are starting to generate lots of possibilities. Pick the important ones: the ones with the most valuable assets that can be reached by the most capable threats, and with the least defences.
 
 ##### Home Example
 
 [Read more](./examples/home/)
 
-
-
-### Courses of Action: Complex Attacks
-
-For the first assessments you can focus on direct, simple attacks where the adversary attempts to 'break in' and affect an asset using one technique.
-
-In practice adversaries are likely to work more slowly and more piecemeal; they might attack the office network to steal some information about your developer network, then *use that* to persuade developers to reveal some information about the software used, then *use that* to insert some malware into an open-source software library being used. 
-
-This complicates the "assets impacts and residual risks", because adversaries might attack low-impact assets to get information to reach high-impact assets.
-
-While you can largely ignore this on the first pass, you should have a placeholder in your risk assessment to work out **attack chains** as **courses of action** that are **complex attacks** 

@@ -1,38 +1,31 @@
+# <img src="BalancingRisk.png" style="float:right; width:25%"/>Quick-Start: Risk Assessment
 
+Let's have a quick look at 'risk' and what we mean by it.
 
+Generally a 'risk' combines how **likely** something is to happen, with how **severe** the impact would be if it did.
 
+For example, stubbing your toe is **unlikely** (hopefully!) and although it hurts at the time, the impact is **minor** (again, hopefully). The risk is **low**.
 
-We can use our assessments of adversaries, networks and asset impacts to prioritise which of these we need to work on first. The highest risks are those with the most **capable** and **motivated** adversaries able to reach the most **vital spaces**  using routes through the network that are the **least defended**. 
+Falling off a ladder is also unlikely (very hopefully), but the impact can be **severe**, so the risk is **medium**.
 
-These are our high priority **vulnerabilities**; the easiest courses of action for these adversaries that would cause us the most harmful impacts. 
+To keep things simple, we suggest using only three levels of likeliness and severity at this stage (but see below) and so use the following table to lookup the overall risk:
 
-We can also eliminate particular combinations and possibly even adversaries. For example if you are building a standalone system that will not be connected to anything else, you can eliminate script kiddies *for the built system*; they may still be a threat to your development team.
+| Likeliness \ Impact | Minor  | Significant | Severe |
+| ------------------- | ------ | ----------- | ------ |
+| Unlikely            | Low    | Low         | Medium |
+| Possible            | Low    | Medium      | High   |
+| Likely              | Medium | High        | High   |
 
-We are left with all the other vulnerabilities, ie which courses of action do not have sufficiently good protection to deal with them. This is likely to be large. Look also for bottlenecks in the routes available to the adversaries and see what defences can be put in place. Otherwise, for the first passes, concentrate on the high priority vulnerabilities.
+Here the **likeliness** is a combination of how motivated the adversaries are to attack an asset, how skillful they are, and how easy it is to reach that asset (its vulnerability). You can then use your asset registry to tell you how severe the **impact** would be if that asset was successfully attacked. 
 
-##### Home Example
+You will already have most of this from your **courses of action** that you worked out in the Security Picture section earlier. Now you can use the table above to lookup the overall Risk for each one to compare them with the others.
 
-[Read more](./examples/home/)
+As well as giving you an overall priority list, this will start you thinking about whether the costs of putting defences in for a particular course of action are worth it.  We will look at doing that more rigorously later in the 'Smart' section. 
 
-Action Plan
+> [!WARNING]
+>
+> Don't try and work out exactly the probability of an attack on an asset at this stage. The table helps you *compare* risks with each other in this assessment in order to find where the main risks are (ie the 'high' ones), if any.
+>
+> Also be wary of using these risk descriptions, impact severity terms or likeliness terms to compare with other risks calculated elsewhere using different systems. We will cover terminology in the 'Smart' and 'Deep Dive' sections.
 
-#### Trade Offs
-
-It can be tempting to just slam defences in everywhere you can see a vulnerability. 
-
-But defences have costs; you need to weight those costs against the impacts of assets being affected.  If the cost of defending an asset is greater than the impact of that asset being affected then the defence is self-defeating.  You will need to talk to your technical people to understand what defences will be appropriate for each vulnerability, what single defences might cover many vulnerabilities, and how much they will cost.
-
-This might be operational rather than money; if you shut down your own people's ability to work, you essentially "self-brick" your own operations. 
-
-You might even find examples of existing defences in place that cost more than the assets they now protect.
-
-This is not clear cut. You might know the costs of defences reasonably well,  but these need to be weighed against the *likelihood* of adversaries successfully affecting  your assets combined with the *likely* impacts of those effects on those assets.  That uncertainty can make this tricky. In the first passes, you can use the indexes in the sheets we provided to calculate the trade-offs, but be wary of 'crap rigour'; use the indexes to guide you, do not treat them as rigorous. 
-
-These trade-offs will give a list of '**residual risks**'; these are the risks still left over once we have considered the existing defences and which assets are not worth spending significant defences on.  
-
-Convert these residual technical security risks into business security risks (usually in the form of business costs) and add them to the general project or company risk register. The risk owners look over all of these to decide if these are acceptable or not according to the business **risk appetite**, and to make a call on whether to continue operating even if some risks still require treating or transferring.  
-
-##### Home Example
-
-[Read more](./examples/home/)
 

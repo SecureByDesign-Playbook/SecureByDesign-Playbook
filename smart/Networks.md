@@ -24,6 +24,10 @@ technical links.
 
 Include physical as well as virtual computer network locations
 
+For data assets this will be your computer networks, where the data is 'at rest' or 'on the move'
+
+
+
 #### Example
 
 (business with teams and large hands network)

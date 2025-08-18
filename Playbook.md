@@ -48,49 +48,45 @@ To help this we strongly recommend going through it once - **quickly** and scrap
 
 'Scope' what you are examining: what are you responsible for, and what are you not? Start small and grow.  Be ready to record and track what you are finding out; we provide some starter material. 
 
-[Quick-Start Prepare](quick\Prepare.md) - Smart Prepare - Deep Prepare
+[Quick-Start Prepare](quick\Prepare.md) - [Prepare Smartly](smart/Prepare.md) - [Deep Prepare](deep/Prepare.md)
 
 ### Assets & Uses
 
 <img style="float: right; width: 25%" src="./Asset.png"/>**Identify** your **assets** (devices, people, information, reputation, etc)  and what they are **used** for.  What **impact** would it have on you if they were stolen (nicked), disabled or broken (bricked) or corrupted (tricked)?  
 
-[Quick-Start Asset Register](quick/Assets.md) - Smart Prepare - Deep Prepare
+[Quick-Start Asset Register](quick/Assets.md) - [Assets](smart/Assets.md)  - [Deep Dive into Assets](deep/Assets.md)
 
 ### Cyber Space, Networks and Access
 
-Where are your assets located? How do they move from stores to where they get used?  How and where does information interact with people? Draw out a linked diagram (a network) of what areas there are that have your valuable assets in them and the access routes, or communication links, between them. Mark onto this map the existing security precautions in place. 
+Where are your assets **located**? How do they **move** from stores to where they get used?  How and where does information **interact with people****?  What existing **defences** are in place, and where?
 
-[Quick-Start Cyber Space](quick\Networks.md)  - Smart Network Mapping - Deep Monitoring 
+[Quick-Start Cyber Space](quick\Networks.md)  - [Smart Network Mapping](smart/Networks.md) - [Deep Monitoring](deep/Networks.md) 
 
-### Threats
+### <img src="Threats.png" style="float:right; width:25%"/>Threats
 
 Who are the **active adversaries** - the people and groups - that might attempt to nick, brick or trick your assets?  How good are they, and how likely are they to attack?
 
-[Quick-Start Threats Guide](quick\Threats.md) - (Smart) Threat Assessment - (Deep) Threat Profiling
+[Quick-Start Threats Guide](quick\Threats.md) - [Threat Assessment](smart/Threats.md) - [Threat Profiling](deep/Threats.md)
 
 ### Security Picture
 
-Let's now look at how *these* threats would navigate *this* network to have an effect on *these* assets.  
+Let's now put these together to see how *these* threats might navigate *this* network to affect *these* assets.  What defences are already in place?
 
-This also gives us the **Courses of Action**, which are ...
+[Quick-Start Security Picture](quick/SecurityPicture.md) - [Assessing the Situation](smart/SecurityPicture.md) - [Understanding](deep/SecurityPicture.md)  
 
-[Quick-Start Security Picture](quick/SecurityPicture.md) - (Smart) Situation Appreciation - (Deep) 
-
-### Assess the Risks
+### <img src="BalancingRisk.png" style="float:right; width:25%"/>Assess the Risks
 
 What are the risks right now? What is the Risk Appetite - how much impact can you put up with? What are the options for defence? how do those costs weigh against the risks?
 
-[Quick-Start Risks](quick/AssessRisks.md) - (Smart) - (Deep)
+[Quick-Start Risks](quick/AssessRisks.md) - [Formal Risk Assessments](smart/AssessRisks.md) - [Understanding Risk](deep/AssessRisks.md)
 
-(Why do we suggest assessing the risks like this? See [our explanation](explain\WhySecurityPicture.md) )
+### <img src="ActionPlan.png" style="float:right; width:25%"/>Action Plan
 
-### Action Plan
+We use the Risk Registry from the Risk Assessment to prioritise the **defences** for those places that have the assets that are particularly vulnerable to the relevant threats, and that have high impacts if affected. 
 
-We use this risk registry to prioritise the **security controls** for those assets that are particularly vulnerable to the relevant threats, and that have high impacts if compromised. 
+[Quick-Start Action Plan](quick/ActionPlan.md) - [Formal Controls](smart/ActionPlan.md) - [Security Governance](deep/ActionPlan.md)
 
-[Quick-Start Action Plan](quick/ActionPlan.md) - (Smart) - (Deep)
-
-#### ...and again...
+#### ... and ... again!
 
 Plan out your next run through the playbook, this time focussing perhaps more on the areas that look vulnerable to attack that can cause you harm. 
 

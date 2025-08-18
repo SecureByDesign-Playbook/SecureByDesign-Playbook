@@ -1,24 +1,16 @@
 # Threats
 
-## Why?
-
-To understand our security we must understand our adversary[^1]. More specifically we need sufficient evidence about relevant threats, in enough time, to allow for good, informed decisions.
-
-Successful threat intelligence helps security teams to better understand previous, existing, and emerging threats; encouraging them to shift from reactive to proactive responses. 
-
-Identifying and profiling potential threats effectively leads to better detection, prevention, and remediation, because security teams can then put in place the most effective solutions for those particular threats.
-
-## Threats
+## What is an Adversary? 
 
 In this case, a threat is an intention to cause harm to your assets. A 'threat' consists of an 'actor' with 'capability', and 'motivation' to attack.  Attacks might be intentional or unintentional, physical or digital.  While we will focus on intentional, digital attacks in this playbook, the others should of course be part of your overall risk assessment.
 
-## What is an Adversary? 
-
 An Adversary (or 'enemy' or threat actor', or 'threat source' in some material) attempts to maliciously attack specific targets.  An adversary may be an individual, a group, or even some semi-autonomous computer systems.
 
-Some risk assessment systems also include natural disasters such as earthquakes under 'threat sources', but these are a very different category of threat that should be approached differently.  We do not include them here.
-
-Even 'unintentional' actors (for example, staff accidentally deleting data) might be better excluded from this particular assessment as they too should be prepared for, monitored for, and responded to differently.
+> [!NOTE]
+>
+> Some risk assessment frameworks (such as NIST 800 3..) include natural threats such as earthquakes, but these can and should be managed in different ways; leave them out of this assessment. 
+>
+> Even 'unintentional' actors (for example, staff accidentally deleting data) might be better excluded from this particular assessment as they too should be prepared for, monitored for, and responded to differently.
 
 To help simplify the large range of possible combinations, we have a list of Adversary types to provide some templates or stereotypes that we can analyse, for example:  
 
@@ -46,12 +38,4 @@ You can then score which of these actors are more relevant to your situation; wh
 
 We provide a [starter threats registry](ThreatsRegisterGuide.md) which has some adversaries and attacks already listed. 
 
-# References
 
-[Know Your Enemy: Understanding Threat Actors \| CSO Online](https://www.csoonline.com/article/3203804/know-your-enemy-understanding-threat-actors.html)
-
-[What Is A Threat Actor? \| Cyber Threat Actors \| Blog \| Nexor](https://www.nexor.com/what-is-a-threat-actor/#:~:text=What%20are%20the%20threat%20actor%20types%3F%201%20Cyber,4%20Script%20kiddies.%20...%205%20Disgruntled%20employees.%20)
-
-[Creating a Threat Profile for Your Organization (giac.org)](https://www.giac.org/paper/gcih/1772/creating-threat-profile-organization/110995)
-
-[^1]: Sun Tzu "Art of War" and pretty much every other classical book on conflict since
