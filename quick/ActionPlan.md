@@ -10,3 +10,4 @@ Go get it done!
 
 [Read more](./examples/Home.md#ActionPlan)
 
+>>>>>>> 

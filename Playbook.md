@@ -38,6 +38,12 @@ stateDiagram
    ImplementControls --> SecurityPicture
 </pre>
 
+```puml
+Alice -> Bob: Hi there!
+Bob --> Alice: Hello to you too!
+```
+
+
 We will go through each of these in more detail below, but essentially that's the playbook to follow. 
 
 We have broken down the big problem of "Cyber Security Risk Assessment" into smaller component problems that you can focus on and then assemble into the security picture, but bear in mind that each component cannot be done well in *complete* isolation so be aware of the bigger picture as you work.

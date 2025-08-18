@@ -1,8 +1,10 @@
 # <img style="float: right; width: 25%" src="Threat.png"/>Quick-Start: Threats
 
-Active **adversaries** (sometimes called threat *actors*) are people and groups that deliberately or accidentally compromise our assets.  The **threat** they pose depends on their **skills**, **tools**, and their **motivation** to attack **your spaces and assets**. 
+Active **adversaries** (sometimes called threat *actors*) are people and groups that deliberately or accidentally compromise our assets.  The **threat** they pose depends on their **skills**, **tools**, and their **motivation** to attack **your spaces and assets**.
 
-For a quick-start we will consider only a few main categories of attacker: "Criminals", "Competitors" and "Insiders", and we can use a coarse score "low", "medium" and "high" for their capability (skills, tools, experience, resources) and their motivation.  For example:
+For a quick-start we will consider only a few main categories of attacker: "Criminals", "Competitors" and "Insiders", and we can use a coarse score "low", "medium" and "high" for their capability (skills, tools, experience, resources) and their motivation.  
+
+For example:
 
 | Adversary        | Capability | Motivation |
 | ---------------- | ---------- | ---------- |
