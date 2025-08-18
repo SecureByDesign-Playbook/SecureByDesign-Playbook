@@ -1,4 +1,4 @@
-# <img src="D:\Martins\Unusual Systems\Unusual Share - Documents\Cyber Security\SbD-Playbook@sbds\Playbook\quick\Preparing.png" style="float:right; width:25%"/>Prepare 
+# <img src="/quick/Preparing.png" style="float:right; width:25%"/>Prepare 
 
 * Be clear about **what you are assessing**. 
   * In the software world, we are typically developing a system to be used by someone else. 
