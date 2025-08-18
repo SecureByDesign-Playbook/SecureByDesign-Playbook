@@ -16,7 +16,7 @@ We are left with all the other vulnerabilities, ie which courses of action do no
 
 
 
-(Why do we suggest assessing the risks like this? See [our explanation](explain\WhySecurityPicture.md) )
+(Why do we suggest assessing the risks like this? See [our explanation](../smart/SecurityPicture.md) )
 
 #### Trade Offs
 
