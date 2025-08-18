@@ -18,4 +18,4 @@ We provide a simple [Quick-start Threat Registry](../smart/ThreatRegister.xlsx);
 
 ##### Home Example
 
-[Read more](./examples/home/)
+[Read more](/examples/home/)
