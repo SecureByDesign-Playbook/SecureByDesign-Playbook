@@ -53,7 +53,7 @@ Just some ideas to help you create your list; valuable assets might be:
 
 Just like a school attendance register, your asset register should list the assets that are present. 
 
-There will likely to be lots of these, so start with the major ones. We have provided a starter [Asset Register](../smart/AssetRegisterGuide.md]) to help you with some drop-down selections to help you grade which impacts are more serious than others. 
+There will likely to be lots of these, so start with the major ones. We have provided a starter [Asset Register](../smart/AssetRegisterGuide.md) to help you with some drop-down selections to help you grade which impacts are more serious than others. 
 
 These grades come from the NIST Risk Framework so are reasonably well established, but as usual don't get too buried in the detail in your first iterations.
 
