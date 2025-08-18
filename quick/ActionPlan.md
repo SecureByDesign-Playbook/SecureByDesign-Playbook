@@ -1,4 +1,4 @@
-# # <img src="ActionPlan.png" style="float:right; width:25%"/>Quick-Start: Action Plan	
+# <img src="ActionPlan.png" style="float:right; width:25%"/>Quick-Start: Action Plan	
 
 Now you have a list of **Defence Options** you can prioritise them using your list of **vulnerabilities**. 
 
