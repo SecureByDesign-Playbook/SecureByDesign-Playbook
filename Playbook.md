@@ -60,7 +60,7 @@ To help this we strongly recommend going through it once - **quickly** and scrap
 
 <img style="float: right; width: 25%" src="./Asset.png"/>**Identify** your **assets** (devices, people, information, reputation, etc)  and what they are **used** for.  What **impact** would it have on you if they were stolen (nicked), disabled or broken (bricked) or corrupted (tricked)?  
 
-[Quick-Start Asset Register](quick/Assets.md) - [Assets](smart/Assets.md)  - [Deep Dive into Assets](deep/Assets.md)
+[Quick-Start Asset Register](quick/Assets.md) - [Smart Assets](smart/Assets.md)  - [Deep Dive into Assets](deep/Assets.md)
 
 ### Cyber Space, Networks and Access
 
