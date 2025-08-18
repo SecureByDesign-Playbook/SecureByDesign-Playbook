@@ -12,7 +12,7 @@ We are left with all the other vulnerabilities, ie which courses of action do no
 
 ##### Home Example
 
-[Read more](./examples/home/)
+[Read more](/examples/Home.md)
 
 
 
@@ -36,5 +36,5 @@ Convert these residual technical security risks into business security risks (us
 
 ##### Home Example
 
-[Read more](./examples/home/)
+[Read more](/examples/Home.md)
 
