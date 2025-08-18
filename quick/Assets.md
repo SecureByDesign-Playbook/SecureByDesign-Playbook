@@ -7,7 +7,7 @@
 * Information 
 * Intangible things like reputation, trust, brand loyalty.
 
-Estimate their value. This is not how much they cost you, but what would be the **impact** - the cost to you - if there were to be:
+Estimate their value. This is not how much they cost you, but what would be the **impact** - the cost to you - if they were to be:
 
 * Nicked (stolen, seen or copied)
 * Bricked (locked out, destroyed, broken, lost)
