@@ -23,5 +23,5 @@ You may find that you are starting to generate lots of possibilities. Pick the i
 
 ##### Home Example
 
-[Read more](./examples/home/)
+[Read more](/examples/Home.md)
 
