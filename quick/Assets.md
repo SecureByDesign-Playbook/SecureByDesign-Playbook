@@ -31,4 +31,4 @@ In a home network we will typically have sensitive personal information about ou
 
 For each of these consider what the impact would be if you didn't have it any more, or if someone got a copy of it, or somebody fiddled with it. 
 
-[Read more](./examples/home/)
+[Read more](/examples/home/)
