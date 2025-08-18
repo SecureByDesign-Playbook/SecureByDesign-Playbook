@@ -14,4 +14,4 @@ It will then need to go to your technical team to implement the right controls. 
 
 ##### Home Example
 
-[Read more](./examples/home/)#
+[Read more](/examples/Home.md)
