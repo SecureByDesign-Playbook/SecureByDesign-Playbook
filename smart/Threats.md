@@ -36,6 +36,6 @@ You can then score which of these actors are more relevant to your situation; wh
 
 ### Threats Register
 
-We provide a [starter threats registry](ThreatsRegisterGuide.md) which has some adversaries and attacks already listed. 
+We provide a [starter threats registry](ThreatRegisterGuide.md) which has some adversaries and attacks already listed. 
 
 
