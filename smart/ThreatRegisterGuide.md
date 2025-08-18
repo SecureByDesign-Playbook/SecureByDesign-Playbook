@@ -34,5 +34,5 @@ When you understand more about your environment this can help you see what Cours
 
 ## Developing Adversaries
 
-Once you have grip on the assessments you can start to develop your Threat Registry by profiling adversaries in more detail. [Developing your own register](ThreatsProfiling.md)
+Once you have grip on the assessments you can start to develop your Threat Registry by profiling adversaries in more detail. [Developing your own register](../deep/Threats.md)
 
