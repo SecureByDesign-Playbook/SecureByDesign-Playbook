@@ -21,7 +21,7 @@ Include:
 
 This can be a very high level diagram, or even just a list of places, to start with; don't worry about all the various detailed technical links.
 
-See [Smart Network Assessments](smar/Networks.md)  for more detail and this [explanation video](https://www.youtube.com/watch?v=KEDMR-ojlI8&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=2)
+See [Smart Network Assessments](smart/Networks.md)  for more detail and this [explanation video](https://www.youtube.com/watch?v=KEDMR-ojlI8&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=2)
 
 #####  Home Example
 
