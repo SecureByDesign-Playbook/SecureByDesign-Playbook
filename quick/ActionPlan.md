@@ -8,6 +8,6 @@ Go get it done!
 
 ##### Home Example
 
-[Read more](./examples/Home.md#ActionPlan)
+[Read more](/examples/Home.md#ActionPlan)
 
 >>>>>>> 
