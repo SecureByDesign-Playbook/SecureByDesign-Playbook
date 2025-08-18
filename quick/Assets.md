@@ -27,7 +27,7 @@ You can draw up your list on a piece of paper or your favourite editor; we provi
 
 ##### Home Example
 
-In a home networks we will typically have sensitive personal information about our families on home laptops or phones, some valuable gaming devices, and probably access to our financial assets at a bank. 
+In a home network we will typically have sensitive personal information about our families on home laptops or phones, some valuable gaming devices, and probably access to our financial assets at a bank. 
 
 For each of these consider what the impact would be if you didn't have it any more, or if someone got a copy of it, or somebody fiddled with it. 
 
