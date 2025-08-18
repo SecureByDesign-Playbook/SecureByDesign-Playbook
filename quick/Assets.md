@@ -23,7 +23,7 @@ By doing this we not only remind ourselves what is actually important to us, but
 
 Where possible we should use the same units - eg money - for all the impacts so that we can easily compare them. Sometimes we might want to use other units like 'time lost', 'physical harm', 'emotional pain', and soon.
 
-You can draw up your list on a piece of paper or your favourite editor; we provide an example starter [Asset Register][AssetRegister.xlsx]. See also this [explanation video](https://www.youtube.com/watch?v=afbq4GgeKDM&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=1&t=26s) and you can go on to [Smart Asset Assessments](../smart/Assets.md) for more detail.
+You can draw up your list on a piece of paper or your favourite editor; we provide an example starter [Asset Register][../smart/AssetRegister.xlsx]. See also this [explanation video](https://www.youtube.com/watch?v=afbq4GgeKDM&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=1&t=26s) and you can go on to [Smart Asset Assessments](../smart/Assets.md) for more detail.
 
 ##### Home Example
 
