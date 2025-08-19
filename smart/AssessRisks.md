@@ -2,11 +2,19 @@
 
 We can use our assessments of adversaries, networks and asset impacts to prioritise which of these we need to work on first. The highest risks are those with the most **capable** and **motivated** adversaries able to reach the most **vital spaces**  using routes through the network that are the **least defended**. 
 
-These are our high priority **vulnerabilities**; the easiest courses of action for these adversaries that would cause us the most harmful impacts. 
+> [!TIP]
+>
+> Eliminate particular combinations and possibly even adversaries where appropriate. For example if you are building a standalone system that will not be connected to anything else, you can eliminate script kiddies *for the built system*; they may still be a threat to your development team.
 
-We can also eliminate particular combinations and possibly even adversaries. For example if you are building a standalone system that will not be connected to anything else, you can eliminate script kiddies *for the built system*; they may still be a threat to your development team.
+These are our greatest **vulnerabilities**; the easiest **courses of action** for these adversaries to **affect our assets**. We can then rate these by those that would cause us most **harmful impacts**. 
 
-We are left with all the other vulnerabilities, ie which courses of action do not have sufficiently good protection to deal with them. This is likely to be large. Look also for bottlenecks in the routes available to the adversaries and see what defences can be put in place. Otherwise, for the first passes, concentrate on the high priority vulnerabilities.
+This is our basic risk formula:
+
+> Risk = likelihood x harm
+
+In some cases we may even be able to calculate this. If we can judge a likelihood of 50% per year that someone is likely to succeed an attack on our website, and it will cost us £1,000 to fix our website, then that's a **risk** of 50% x £1,000 = £500.
+
+We are left with all the other vulnerabilities, ie which courses of action do not have sufficiently good protection to deal with them. This is likely to be large. Look also for bottlenecks in the routes available to the adversaries and see what defences can be put in place. 
 
 (Why do we suggest assessing the risks like this? See [our explanation](../smart/SecurityPicture.md) )
 

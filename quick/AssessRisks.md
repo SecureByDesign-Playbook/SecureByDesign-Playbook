@@ -2,13 +2,17 @@
 
 Let's have a quick look at 'risk' and what we mean by it.
 
-Generally a 'risk' combines how **likely** something is to happen, with how **severe** the impact would be if it did.
+Generally a 'risk' combines how **likely** something is to happen, with how **severe** the impact would be if it did. 
 
 For example, stubbing your toe is **unlikely** (hopefully!) and although it hurts at the time, the impact is **minor** (again, hopefully). The risk is **low**.
 
 Falling off a ladder is also unlikely (very hopefully), but the impact can be **severe**, so the risk is **medium**.
 
-To keep things simple, we suggest using only three levels of likeliness and severity at this stage (but see below) and so use the following table to lookup the overall risk:
+Sometimes this is given as a multiplication:
+
+> Risk = Likeliness of successful attack  x  Severity of impact
+
+...and we will look at this in the 'Smart' and 'Deep Dive' sections. However to keep things simple, we suggest using only three levels of likeliness and severity at this stage and use the following table to lookup the overall risk:
 
 | Likeliness \ Impact | Minor  | Significant | Severe |
 | ------------------- | ------ | ----------- | ------ |

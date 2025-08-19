@@ -23,7 +23,7 @@ To help simplify the large range of possible combinations, we have a list of Adv
 | Trusted Insider | Insider with access to the infrastructure, business processes and physical environment who also have                                                access to external skills and resources | Individual Trusted Insider | TS-INSIDER-EX |
 | Privileged Insider | Insiders (eg ITSO, maintainers and Admins) who have privileged access and more knowledge about and access to the infrastructure | Individual Privileged Insider | TS-PRIVINS |
 | Partner | An organisation with deep collaboration meshes including access to many internal information systems | Organisation Partner | TS-PARTNER |
-| Foreign Intelligence Services |  | Organisation Outsider | TS-FIS |
+| Foreign Intelligence Services | Government-sponsored or managed organisations dedicated to spying on and disrupting other states | Organisation Outsider | TS-FIS |
 
 --------------------------------------------
 ## Scoring Threats
