@@ -28,14 +28,9 @@ stateDiagram
    Assets&Uses --> SecurityPicture
    Networks&Access --> SecurityPicture
    Threats --> SecurityPicture
-   SecurityPicture --> CoursesOfAction
-   CoursesOfAction --> AssessingTheRisks
-   AssessingTheRisks --> CurrentRisks
-   DefendOptions --> ActionPlan
-   RiskAppetite --> ActionPlan
-   CurrentRisks --> ActionPlan
-   ActionPlan --> ImplementControls
-   ImplementControls --> SecurityPicture
+   SecurityPicture --> AssessingTheRisks
+   DefenceOptions --> ActionPlan
+   AssessingTheRisks --> ActionPlan
 </pre>
 
 We will go through each of these in more detail below, but essentially that's the playbook to follow. 
@@ -44,7 +39,7 @@ We have broken down the big problem of "Cyber Security Risk Assessment" into sma
 
 To help this we strongly recommend going through it once - **quickly** and scrappily - to learn, and then again more carefully and **smartly** to be more thorough, and then again more **deeply** until it becomes routine and mostly automatic.
 
-## Prepare<img style="float: right; width: 10%" src="PreparingPerson.png"/>
+## Prepare<img style="float: right; width: 10%" src="Prepare.png"/>
 
 'Scope' what you are examining: what are you responsible for, and what are you not? Start small and grow.  Be ready to record and track what you are finding out; we provide some starter material. 
 
@@ -52,7 +47,7 @@ To help this we strongly recommend going through it once - **quickly** and scrap
 
 ### Assets & Uses
 
-<img style="float: right; width: 25%" src="./Asset.png"/>**Identify** your **assets** (devices, people, information, reputation, etc)  and what they are **used** for.  What **impact** would it have on you if they were stolen (nicked), disabled or broken (bricked) or corrupted (tricked)?  
+<img style="float: right; width: 25%" src="./Assets.png"/>**Identify** your **assets** (devices, people, information, reputation, etc)  and what they are **used** for.  What **impact** would it have on you if they were stolen (nicked), disabled or broken (bricked) or corrupted (tricked)?  
 
 [Quick-Start Asset Register](quick/Assets.md) - [Smart Assets](smart/Assets.md)  - [Deep Dive into Assets](deep/Assets.md)
 
@@ -74,13 +69,19 @@ Let's now put these together to see how *these* threats might navigate *this* ne
 
 [Quick-Start Security Picture](quick/SecurityPicture.md) - [Assessing the Situation](smart/SecurityPicture.md) - [Understanding](deep/SecurityPicture.md)  
 
-### <img src="BalancingRisk.png" style="float:right; width:25%"/>Assess the Risks
+### <img src="Defences.png" style="float:right; width:10%"/>Defence Options
+
+What can you do to prevent attackers from accessing your systems? How can you monitor to see if any get in? What  responses should you prepare?
+
+[Quick-Start Defences](quick/Defences.md) - [Defence Options](smart/Defences.md) - [Understanding Defence](deep/Defence.md)  
+
+### <img src="AssessRisks.png" style="float:right; width:20%"/>Assess the Risks
 
 What are the risks right now? What is the Risk Appetite - how much impact can you put up with? What are the options for defence? how do those costs weigh against the risks?
 
 [Quick-Start Risks](quick/AssessRisks.md) - [Formal Risk Assessments](smart/AssessRisks.md) - [Understanding Risk](deep/AssessRisks.md)
 
-### <img src="ActionPlan.png" style="float:right; width:25%"/>Action Plan
+### <img src="ActionPlan.png" style="float:right; width:20%"/>Action Plan
 
 We use the Risk Registry from the Risk Assessment to prioritise the **defences** for those places that have the assets that are particularly vulnerable to the relevant threats, and that have high impacts if affected. 
 

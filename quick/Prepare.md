@@ -1,4 +1,4 @@
-# <img src="Preparing.png" style="float:right; width:25%"/>Quick Start: Prepare 
+# <img src="Prepare.png" style="float:right; width:25%"/>Quick Start: Prepare 
 
 Be clear about **what you are assessing**. 
   * Is it your current situation, or a future one?
@@ -15,3 +15,6 @@ Find out **who** to ask about:
 
 In many cases the answers to 'who?' might be 'you!'
 
+---
+
+[Back to Playbook](./Playbook.md)  ●  [Home Example](examples/Home.md#Prepare)  ●  [Next: Quick-Start Assets](Assets.md)  ●  [Smarter Preparing](../smart/Prepare.md)

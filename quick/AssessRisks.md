@@ -1,4 +1,4 @@
-# <img src="BalancingRisk.png" style="float:right; width:25%"/>Quick-Start: Risk Assessment
+# <img src="AssessRisks.png" style="float:right; width:25%"/>Quick-Start: Risk Assessment
 
 Let's have a quick look at 'risk' and what we mean by it.
 
@@ -28,4 +28,6 @@ As well as giving you an overall priority list, this will start you thinking abo
 >
 > Also be wary of using these risk descriptions, impact severity terms or likeliness terms to compare with other risks calculated elsewhere using different systems. We will cover terminology in the 'Smart' and 'Deep Dive' sections.
 
+---
 
+[Back to Playbook](./Playbook.md)  ●  [Home Example](examples/Home.md#AssessRisks)  ●  [Next: Quick-Start Action Plan](./ActionPlan.md)  ●  [Smarter Risks](../smart/AssessRisks.md)

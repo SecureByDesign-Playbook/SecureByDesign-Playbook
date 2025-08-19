@@ -1,3 +1,9 @@
+# Deep Dive into Action Plans
+
+*To develop* 
+
+
+
 When it  comes to ‘Detect’ we can look at what known attacks can be detected, and use rules-based monitors (such as Zabbix, or Security Onion, or a host of others) that  monitor traffic and devices and look for particular patterns of behaviour  that correspond to known attack patterns, and can raise alerts.     
 
 Other  detecting tools include **pattern of life monitors**, that look for sudden  changes in behaviour as likely symptoms of compromise. These can be useful  where there are traffic streams that follow predictable patterns, at least in  aggregate, such as an office that communicates using Outlook and writes  documents using Word. They are less useful when the behaviour changes  frequently and sporadically. Indeed they themselves can be a threat in  particular circumstances. For example, a system that switches from peacekeeping  to combat is likely to strongly change behaviour, and a pattern of life  monitor raising alerts will be distracting at best, and debilitating at worst  if it tries to shut down components that it believes have been compromised.     

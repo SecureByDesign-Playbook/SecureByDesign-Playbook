@@ -1,4 +1,4 @@
-# <img src="Cyberspace.png" style="float:right; width:25%"/>Quick-Start: Cyber Space!
+# <img src="Networks.png" style="float:right; width:25%"/>Quick-Start: Cyber Space!
 
 Draw out a linked diagram (a network) of what areas there are that have your valuable assets in them and the access routes, or communication links, between them. 
 
@@ -21,9 +21,8 @@ Include:
 
 This can be a very high level diagram, or even just a list of places, to start with; don't worry about all the various detailed technical links.
 
-See [Smart Network Assessments](../smart/Networks.md)  for more detail and this [explanation video](https://www.youtube.com/watch?v=KEDMR-ojlI8&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=2)
+See also this [explanation video](https://www.youtube.com/watch?v=KEDMR-ojlI8&list=PLKjQAPJ7DIEpwAtzMKIRAiOrNvuk4qjWb&index=2)
 
-#####  Home Example
+---
 
-[Read more](./examples/Home.md#Networks)
-
+[Back to Playbook](./Playbook.md)  ●  [Home Example](examples/Home.md#Networks)  ●  [Next: Quick-Start Threats](./Threats.md)  ●  [Smarter Network Assessments](../smart/Networks.md)

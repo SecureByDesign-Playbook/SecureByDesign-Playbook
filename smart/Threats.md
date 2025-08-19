@@ -1,10 +1,8 @@
 # Threats
 
-## What is an Adversary? 
+## <img src="Threats.png" align="right" width=30% />The Adversary
 
-In this case, a threat is an intention to cause harm to your assets. A 'threat' consists of an 'actor' with 'capability', and 'motivation' to attack.  Attacks might be intentional or unintentional, physical or digital.  While we will focus on intentional, digital attacks in this playbook, the others should of course be part of your overall risk assessment.
-
-An Adversary (or 'enemy' or threat actor', or 'threat source' in some material) attempts to maliciously attack specific targets.  An adversary may be an individual, a group, or even some semi-autonomous computer systems.
+An **Adversary** (or 'enemy' or threat actor', or 'threat source' in some material) attempts to maliciously attack specific targets.  An adversary may be an individual, a group, or even some semi-autonomous computer systems.
 
 > [!NOTE]
 >
@@ -36,6 +34,8 @@ You can then score which of these actors are more relevant to your situation; wh
 
 ### Threats Register
 
-We provide a [starter threats registry](ThreatRegisterGuide.md) which has some adversaries and attacks already listed. 
+We provide a [starter threats registry](ThreatRegisterGuide.md) which has some adversaries and attacks listed and scored based on the NIST Risk Framework.
 
+---
 
+[Back to Playbook](./Playbook.md)  ●  [Office Example](examples/Office.md#Threats)  ●  [Next: Security Picture](./SecurityPicture.md)  ●  Starter [Threats Register](../smart/ThreatRegisterGuide.md) 

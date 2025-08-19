@@ -4,10 +4,10 @@ Now you have a list of **Defence Options** you can prioritise them using your li
 
 This should now be a reasonably simple checklist of the **controls** to install on your system. 
 
-Go get it done! 
+Don't hang about - go get it done! 
 
-##### Home Example
+---
 
-[Read more](/examples/Home.md#ActionPlan)
+[Back to Playbook](./Playbook.md)  ●  [Home Example](examples/Home.md#ActionPlan)  ●  [Next: Quick-Start Defences](./Defences.md)  ●  [Smarter Action Plans](../smart/ActionPlan.md)
 
 >>>>>>> 

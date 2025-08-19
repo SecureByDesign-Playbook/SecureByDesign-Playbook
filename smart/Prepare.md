@@ -1,4 +1,4 @@
-# <img src="/quick/Preparing.png" style="float:right; width:25%"/>Prepare 
+# <img src="Prepare.png" style="float:right; width:25%"/>Prepare 
 
 * Be clear about **what you are assessing**. 
   * In the software world, we are typically developing a system to be used by someone else. 

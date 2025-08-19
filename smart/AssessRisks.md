@@ -1,6 +1,4 @@
-
-
-
+# Assessing Risks
 
 We can use our assessments of adversaries, networks and asset impacts to prioritise which of these we need to work on first. The highest risks are those with the most **capable** and **motivated** adversaries able to reach the most **vital spaces**  using routes through the network that are the **least defended**. 
 
@@ -9,12 +7,6 @@ These are our high priority **vulnerabilities**; the easiest courses of action f
 We can also eliminate particular combinations and possibly even adversaries. For example if you are building a standalone system that will not be connected to anything else, you can eliminate script kiddies *for the built system*; they may still be a threat to your development team.
 
 We are left with all the other vulnerabilities, ie which courses of action do not have sufficiently good protection to deal with them. This is likely to be large. Look also for bottlenecks in the routes available to the adversaries and see what defences can be put in place. Otherwise, for the first passes, concentrate on the high priority vulnerabilities.
-
-##### Home Example
-
-[Read more](/examples/Home.md)
-
-
 
 (Why do we suggest assessing the risks like this? See [our explanation](../smart/SecurityPicture.md) )
 
@@ -34,7 +26,8 @@ These trade-offs will give a list of '**residual risks**'; these are the risks s
 
 Convert these residual technical security risks into business security risks (usually in the form of business costs) and add them to the general project or company risk register. The risk owners look over all of these to decide if these are acceptable or not according to the business **risk appetite**, and to make a call on whether to continue operating even if some risks still require treating or transferring.  
 
-##### Home Example
 
-[Read more](/examples/Home.md)
 
+---
+
+[Back to Playbook](./Playbook.md)  ●  [Office Example](examples/Office.md#AssessRisks)  ●  [Next: Action Plan](./ActionPlan.md) 

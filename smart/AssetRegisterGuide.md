@@ -6,7 +6,7 @@ This is available as the original [Google Sheet](https://docs.google.com/spreads
 
 On the left you should list the things that you believe are valuable. The example pre-entered in the sheet is for a simple home setup: 
 
-<img src="/smart/AssetRegisterGuide-Identify.png" align=center width=500 />
+<img src="AssetRegisterGuide-Identify.png" align=center width=500 />
 
 You don't have to list every single device; feel free to group similar ones or those with similar uses. 
 
@@ -22,7 +22,7 @@ Give each one an "ID" so that you can refer to it from other documents later.
 
 For each device think about what would happen if it was bricked, nicked, or tricked:
 
-<img src="/smart/AssetRegisterGuide-Impact.png" align=center width=400 />
+<img src="AssetRegisterGuide-Impact.png" align=center width=400 />
 
 Write some quick notes about what the impact would be; if there are several impacts then you can create another line for the same asset, but again at least to start with keep this rough and broad.
 
@@ -44,3 +44,6 @@ If you are assessing the risk for a business creating a product then you might n
 
 This is particularly relevant to software developers; the developing team will need a risk assessment, and the deployed software will need one.
 
+---
+
+[Back to Assets](./Assets.md)  

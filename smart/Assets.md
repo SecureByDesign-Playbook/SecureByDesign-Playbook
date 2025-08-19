@@ -81,3 +81,7 @@ For each effect (ie nick, brick and trick) work out:
 
 Typically you will measure the commercial impact in time or money, but in your case you might want to use other measures such as harm, time, reputation, delays to a goal, and so on. 
 
+---
+
+[Back to Playbook](./Playbook.md)  ●  [Office Example](examples/Office.md#Assets)  ●  [Next: Networks](./Networks.md)  ●  Starter [Asset Register](../smart/AssetRegisterGuide.md) 
+

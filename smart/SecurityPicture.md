@@ -1,5 +1,9 @@
 # The Security Picture
 
+*To be developed*
+
+Which adversaries are motivated and skilled enough to reach through which routes to affect your assets with what impact?
+
 In most situations this will give you a very large combination of possibilities: 
 
 <p align=center>Number of Threats x Number of Routes x Range of Impacts </p>
@@ -12,7 +16,7 @@ As you develop the detail of your security risk assessment you will need to mana
 
 Bear in mind that this database itself is an asset, and it can be used to discover the vulnerabilities in your systems - this is, after all, what you are using it for. It too must be included in your asset register and your risk assessment.  
 
-##### 
+
 
 ### Courses of Action: Complex Attacks
 
@@ -24,3 +28,8 @@ This complicates the "assets impacts and residual risks", because adversaries mi
 
 While you can largely ignore this on the first pass, you should have a placeholder in your risk assessment to work out **attack chains** as **courses of action** that are **complex attacks**. 
 
+
+
+---
+
+[Back to Playbook](./Playbook.md)  ●  [Office Example](examples/Office.md#SecurityPicture)  ●  [Next: Defence Options](./Defences.md) 

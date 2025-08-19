@@ -21,7 +21,7 @@ This will give you your **vulnerabilities**: the courses of action that the adve
 
 You may find that you are starting to generate lots of possibilities. Pick the important ones: the ones with the most valuable assets that can be reached by the most capable threats, and with the least defences.
 
-##### Home Example
+---
 
-[Read more](/examples/Home.md)
+[Back to Playbook](./Playbook.md)  ●  [Home Example](examples/Home.md#SecurityPicture)  ●  [Next: Quick-Start Defences](./Defences.md)  ●  [Smarter Security Pictures](../smart/SecurityPicture.md)
 
